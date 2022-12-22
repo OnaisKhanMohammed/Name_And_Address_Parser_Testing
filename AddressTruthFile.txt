@@ -1,0 +1,18 @@
+{"1":{"USAD_SNO":[1],"USAD_SNM":[2],"USAD_SFX":[3],"USAD_ANM":[4],"USAD_ANO":[5]},
+"2":{"USAD_SNO":[1],"USAD_SPR":[2],"USAD_SNM":[3],"USAD_SFX":[4],"USAD_CTY":[5],"USAD_STA":[6],"USAD_ZIP":[7]},
+"3":{"USAD_SNO":[1],"USAD_SNM":[2],"USAD_SFX":[3],"USAD_CTY":[4],"USAD_STA":[5],"USAD_ZIP":[6]},
+"4":{"USAD_BNM":[1,2],"USAD_BNO":[3],"USAD_CTY":[4],"USAD_STA":[5],"USAD_ZIP":[6]},
+"5":{"USAD_SNO":[1],"USAD_SPR":[2,3],"USAD_SFX":[4,5],"USAD_CTY":[6,7],"USAD_STA":[8],"USAD_ZIP":[9]},
+"6":{"USAD_SNO":[1],"USAD_SPR":[2],"USAD_SNM":[3],"USAD_SFX":[4,5],"USAD_CTY":[6,7],"USAD_STA":[8],"USAD_ZIP":[9]},
+"7":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"8":{"USAD_SNO":[1], "USAD_SPR":[2],"USAD_SNM":[3], "USAD_SFX":[4], "USAD_CTY":[5], "USAD_STA":[6],"USAD_ZIP":[7]},
+"9":{"USAD_SNO":[1], "USAD_SPR":[2],"USAD_SNM":[3], "USAD_SFX":[4], "USAD_CTY":[5], "USAD_STA":[6],"USAD_ZIP":[7]},
+"10":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"11":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"12":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"13":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"14":{"USAD_SNO":[1], "USAD_SNM":[2,3], "USAD_SFX":[4], "USAD_CTY":[5], "USAD_STA":[6],"USAD_ZIP":[7]},
+"15":{"USAD_SNO":[1], "USAD_SPR":[2],"USAD_SNM":[3], "USAD_SFX":[4],"USAD_CTY":[5],"USAD_STA":[6],"USAD_ZIP":[7]},
+"16":{"USAD_SNO":[1], "USAD_SNM":[2], "USAD_SFX":[3], "USAD_CTY":[4], "USAD_STA":[5],"USAD_ZIP":[6]},
+"17":{"USAD_SNO":[1],"USAD_SPR":[2], "USAD_SNM":[3], "USAD_SFX":[4], "USAD_CTY":[5], "USAD_STA":[6],"USAD_ZIP":[7]}
+}

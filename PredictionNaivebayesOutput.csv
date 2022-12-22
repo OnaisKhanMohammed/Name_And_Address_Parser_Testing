@@ -1,0 +1,8 @@
+,TOKEN,RESULT,Consistent/Inconsistent
+0,SW,False,Consistent
+1,SW,False,Consistent
+2,MW,False,Consistent
+3,MN,True,Consistent
+4,EW,False,Consistent
+5,EN,False,Consistent
+6,MP,True,Inconsistent

@@ -1,0 +1,162 @@
+{
+    "NWF,SN": {
+        "1": {
+            "USAD_SNO": "1701",
+            "USAD_SPR": "WESTPARK",
+            "USAD_SNM": "DRIVE",
+            "USAD_ANM": "APT",
+            "USAD_ANO": "110"
+        }
+    },
+    "NDDFW,TN": {
+        "2": {
+            "USAD_SNO": "44",
+            "USAD_SPR": "E",
+            "USAD_SNM": "WEST",
+            "USAD_SFX": "ST",
+            "USAD_CTY": "ASHLAND",
+            "USAD_STA": "OHIO",
+            "USAD_ZIP": "44805"
+        }
+    },
+    "NWFW,TN": {
+        "3": {
+            "USAD_SNO": "131",
+            "USAD_SPR": "IROQUOIS",
+            "USAD_SNM": "ST",
+            "USAD_CTY": "SG",
+            "USAD_STA": "MI",
+            "USAD_ZIP": "48195"
+        },
+        "7": {
+            "USAD_SNO": "773",
+            "USAD_SPR": "MAMMOTH",
+            "USAD_SNM": "ST",
+            "USAD_CTY": "CHARDON",
+            "USAD_STA": "OH",
+            "USAD_ZIP": "44024"
+        },
+        "10": {
+            "USAD_SNO": "9264",
+            "USAD_SPR": "PARKER",
+            "USAD_SNM": "DR",
+            "USAD_CTY": "MARLTON",
+            "USAD_STA": "NJ",
+            "USAD_ZIP": "08053"
+        },
+        "11": {
+            "USAD_SNO": "23",
+            "USAD_SPR": "FAWN",
+            "USAD_SNM": "STREET",
+            "USAD_CTY": "NASHVILLE",
+            "USAD_STA": "TN",
+            "USAD_ZIP": "37205"
+        },
+        "16": {
+            "USAD_SNO": "6",
+            "USAD_SPR": "KIRKLAND",
+            "USAD_SNM": "DR",
+            "USAD_CTY": "TUCKER",
+            "USAD_STA": "GA",
+            "USAD_ZIP": "30084"
+        }
+    },
+    "XXN,W,TN": {
+        "4": {
+            "USAD_CTY": "ALTURAS",
+            "USAD_STA": "CA",
+            "USAD_ZIP": "96101",
+            "USAD_BNM": "PO BOX",
+            "USAD_BNO": "969"
+        }
+    },
+    "NDDFF,WW,T,N": {
+        "5": {
+            "USAD_SNO": "190",
+            "USAD_SPR": "NORTH WEST",
+            "USAD_SNM": "DRIVE",
+            "USAD_SFX": "ST",
+            "USAD_CTY": "LITTLE ROCK",
+            "USAD_STA": "ARK",
+            "USAD_ZIP": "10022"
+        },
+        "6": {
+            "USAD_SNO": "011",
+            "USAD_SPR": "EAST NORTH",
+            "USAD_SNM": "DR",
+            "USAD_SFX": "STREET",
+            "USAD_CTY": "MAPLE ROCK",
+            "USAD_STA": "ARK",
+            "USAD_ZIP": "19922"
+        }
+    },
+    "NDWFW,TN": {
+        "8": {
+            "USAD_SNO": "983",
+            "USAD_SPR": "WEST",
+            "USAD_SNM": "MAIN",
+            "USAD_SFX": "ST",
+            "USAD_CTY": "FAYETTEVILLE",
+            "USAD_STA": "NC",
+            "USAD_ZIP": "28303"
+        },
+        "9": {
+            "USAD_SNO": "240",
+            "USAD_SPR": "WEST",
+            "USAD_SNM": "COLUMBIA",
+            "USAD_SFX": "LANE",
+            "USAD_CTY": "WESTBURY",
+            "USAD_STA": "NY",
+            "USAD_ZIP": "11590"
+        },
+        "15": {
+            "USAD_SNO": "371",
+            "USAD_SPR": "WEST",
+            "USAD_SNM": "CORONA",
+            "USAD_SFX": "ST",
+            "USAD_CTY": "SUMTER",
+            "USAD_STA": "SC",
+            "USAD_ZIP": "29150"
+        },
+        "17": {
+            "USAD_SNO": "8955",
+            "USAD_SPR": "SE",
+            "USAD_SNM": "PENDERGAST",
+            "USAD_SFX": "ST",
+            "USAD_CTY": "HASTINGS",
+            "USAD_STA": "MN",
+            "USAD_ZIP": "55033"
+        }
+    },
+    "NFFW,TN": {
+        "13": {
+            "USAD_SNO": "419",
+            "USAD_SNM": "CIRCLE",
+            "USAD_SFX": "AVENUE",
+            "USAD_CTY": "ENGLISHTOWN",
+            "USAD_STA": "NJ",
+            "USAD_ZIP": "07726"
+        }
+    },
+    "NWFFW,TN": {
+        "14": {
+            "USAD_SNO": "3221",
+            "USAD_SNM": "SMOKY HOLLOW",
+            "USAD_SFX": "DR",
+            "USAD_CTY": "MCALLEN",
+            "USAD_STA": "TX",
+            "USAD_ZIP": "78501"
+        }
+    },
+    "NDWWFW,TN": {
+        "12": {
+            "USAD_SNO": "5",
+            "USAD_SPR": "SOUTH",
+            "USAD_SNM": "PURPLE FINCH",
+            "USAD_SFX": "AVENUE",
+            "USAD_CTY": "DACULA",
+            "USAD_STA": "GA",
+            "USAD_ZIP": "30019"
+        }
+    }
+}
