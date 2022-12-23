@@ -15,5 +15,64 @@
         {
             "Q": "PHD"
         }
+    ],
+    "WWI,W": [
+        {
+            "W": "RAHIL"
+        },
+        {
+            "W": "HUSSAIN"
+        },
+        {
+            "I": "1"
+        },
+        {
+            "W": "MASTERS"
+        }
+    ],
+    "WWW,W": [
+        {
+            "W": "RAHIL"
+        },
+        {
+            "W": "HUSSAIN"
+        },
+        {
+            "W": "1ST"
+        },
+        {
+            "W": "MASTERS"
+        }
+    ],
+    "WWI,Q": [
+        {
+            "W": "RAHIL"
+        },
+        {
+            "W": "HUSSAIN"
+        },
+        {
+            "I": "I"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "PWWI,Q": [
+        {
+            "P": "MR"
+        },
+        {
+            "W": "RAHIL"
+        },
+        {
+            "W": "HUSSAIN"
+        },
+        {
+            "I": "I"
+        },
+        {
+            "Q": "PHD"
+        }
     ]
 }
