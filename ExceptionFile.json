@@ -183,5 +183,169 @@
         {
             "W": "III"
         }
+    ],
+    "WWWW,WW": [
+        {
+            "W": "MR"
+        },
+        {
+            "W": "SENAI"
+        },
+        {
+            "W": "KEITH"
+        },
+        {
+            "W": "III"
+        },
+        {
+            "W": "JR"
+        },
+        {
+            "W": "PHD"
+        }
+    ],
+    "WWW,W": [
+        {
+            "W": "DEAN"
+        },
+        {
+            "W": "GREGORY"
+        },
+        {
+            "W": "ASTORGA"
+        },
+        {
+            "W": "SR"
+        }
+    ],
+    "FWW,W": [
+        {
+            "F": "DR"
+        },
+        {
+            "W": "LACI"
+        },
+        {
+            "W": "ATWOOD"
+        },
+        {
+            "W": "SR"
+        }
+    ],
+    "TWW,W": [
+        {
+            "T": "COL"
+        },
+        {
+            "W": "STEPHANIE"
+        },
+        {
+            "W": "AUSTIN"
+        },
+        {
+            "W": "SR"
+        }
+    ],
+    "WWWW,W": [
+        {
+            "W": "DEAN"
+        },
+        {
+            "W": ""
+        },
+        {
+            "W": "JAMES"
+        },
+        {
+            "W": "AUXIER"
+        },
+        {
+            "W": "JR"
+        }
+    ],
+    "WWWW": [
+        {
+            "W": "DEAN"
+        },
+        {
+            "W": "LARRY"
+        },
+        {
+            "W": "AVENT"
+        },
+        {
+            "W": "JR"
+        }
+    ],
+    "WWW,W,W": [
+        {
+            "W": "DEAN"
+        },
+        {
+            "W": "GREGORY"
+        },
+        {
+            "W": "ASTORGA"
+        },
+        {
+            "W": "SR"
+        },
+        {
+            "W": "QA"
+        }
+    ],
+    "FWW,W,W": [
+        {
+            "F": "DR"
+        },
+        {
+            "W": "LACI"
+        },
+        {
+            "W": "ATWOOD"
+        },
+        {
+            "W": "SR"
+        },
+        {
+            "W": "IQCP"
+        }
+    ],
+    "TWW,W,W": [
+        {
+            "T": "COL"
+        },
+        {
+            "W": "STEPHANIE"
+        },
+        {
+            "W": "AUSTIN"
+        },
+        {
+            "W": "SR"
+        },
+        {
+            "W": "CLIA"
+        }
+    ],
+    "WWWW,W,W": [
+        {
+            "W": "DEAN"
+        },
+        {
+            "W": ""
+        },
+        {
+            "W": "JAMES"
+        },
+        {
+            "W": "AUXIER"
+        },
+        {
+            "W": "JR"
+        },
+        {
+            "W": "QA"
+        }
     ]
 }
