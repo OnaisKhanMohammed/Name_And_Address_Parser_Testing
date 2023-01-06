@@ -126,24 +126,35 @@ def Address_Parser(Address_4CAF50,TruthSet):
         M.seek(0)
         json.dump(dataFinal, M,indent=4)
         M.truncate()
-    with open(TruthSet, 'r+', encoding='utf-8') as g:
-        Stat = json.load(g)
+    try:
         Count_of_Correct=0
-        Total_Count=0
-        for key,value in Truth_Result.items():
-            Total_Count=len(Truth_Result)
-            if key in Stat.keys():
-                Count1=0
-                Count_total=0
-                for k1,v1 in value.items():
-                    Count_total+=len(Stat[key])
-                    for k2,v2 in Stat[key].items():
-                        if collections.Counter(value[k1]) == collections.Counter(Stat[key][k2]) and k1==k2:
-                            Count1+=len(Stat[key]) 
-                print("ID:",key, "Percentage of Correctness",round((Count1/Count_total)*100,2),"%")
-                if (round((Count1/Count_total)*100))>99:
-                          Count_of_Correct+=1
-        return (Result,(Observation/Total)*100,Count_of_Correct/Total_Count*100)
+        Total_Count=0  
+        with open(TruthSet, 'r+', encoding='utf-8') as g:
+            Stat = json.load(g)
+            Count_of_Correct=0
+            Total_Count=0
+            for key,value in Truth_Result.items():
+                Total_Count=len(Truth_Result)
+                if key in Stat.keys():
+                    Count1=0
+                    Count_total=0
+                    for k1,v1 in value.items():
+                        Count_total+=len(Stat[key])
+                        for k2,v2 in Stat[key].items():
+                            if collections.Counter(value[k1]) == collections.Counter(Stat[key][k2]) and k1==k2:
+                                Count1+=len(Stat[key]) 
+                    print("ID:",key, "Percentage of Correctness",round((Count1/Count_total)*100,2),"%")
+                    if (round((Count1/Count_total)*100))>99:
+                              Count_of_Correct+=1
+    
+    except:
+        print()
+    RTruth=0
+    try:
+        RTruth=(Count_of_Correct/Total_Count*100)
+    except:
+        print()
+    return (Result,(Observation/Total)*100,RTruth)
     # print("Final Correct Address Parsing Percentage",Count_of_Correct/Total_Count*100)
     # print("Address Matching Report")
     # print("Total=",Count)
