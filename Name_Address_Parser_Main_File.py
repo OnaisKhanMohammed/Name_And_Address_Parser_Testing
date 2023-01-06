@@ -122,7 +122,7 @@ class NameAddressParser:
         
         # create a scrollbar widget and set its command to the text widget
         scrollbar = tk.Scrollbar(tab1, orient='vertical', command=text.yview)
-        scrollbar.grid(row=55, column=6, sticky=tk.NE)
+        scrollbar.grid(column=6, row=55, rowspan=2,  sticky="ns")
         
         #  communicate back to the scrollbar
         text['yscrollcommand'] = scrollbar.set
@@ -225,7 +225,7 @@ class NameAddressParser:
         
         # create a scrollbar widget and set its command to the text widget
         scrollbar = tk.Scrollbar(tab2, orient='vertical', command=text.yview)
-        scrollbar.grid(row=55, column=6, sticky=tk.NE)
+        scrollbar.grid(column=6, row=55, rowspan=2,  sticky="ns")
         
         #  communicate back to the scrollbar
         text['yscrollcommand'] = scrollbar.set
@@ -320,7 +320,7 @@ class NameAddressParser:
         
         # create a scrollbar widget and set its command to the text widget
         scrollbar = tk.Scrollbar(tab3, orient='vertical', command=text.yview)
-        scrollbar.grid(row=55, column=6, sticky=tk.NE)
+        scrollbar.grid(column=6, row=55, rowspan=2,  sticky="ns")
         
         #  communicate back to the scrollbar
         text['yscrollcommand'] = scrollbar.set
