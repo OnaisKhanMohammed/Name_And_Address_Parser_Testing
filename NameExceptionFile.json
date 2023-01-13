@@ -20,5 +20,92 @@
         {
             "W": "MOHAMMED"
         }
+    ],
+    "WWPQ": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "WWP,Q": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "WWP": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        }
+    ],
+    "PWWP,W": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "W": "CLIA"
+        }
+    ],
+    "PWWP": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        }
+    ],
+    "PWWPW": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "W": "CLIA"
+        }
     ]
 }
