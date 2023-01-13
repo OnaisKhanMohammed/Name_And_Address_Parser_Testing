@@ -1,1 +1,115 @@
+<<<<<<< HEAD
 {}
+=======
+{
+    "PWWP,Q": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "MUJAHID"
+        },
+        {
+            "W": "HUSSAIN"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "W": [
+        {
+            "W": "MOHAMMED"
+        }
+    ],
+    "WWPQ": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "WWP,Q": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "Q": "PHD"
+        }
+    ],
+    "WWP": [
+        {
+            "W": "MRBEN"
+        },
+        {
+            "W": "FLOWERS"
+        },
+        {
+            "P": "SR"
+        }
+    ],
+    "PWWP,W": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "W": "CLIA"
+        }
+    ],
+    "PWWP": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        }
+    ],
+    "PWWPW": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "RICK"
+        },
+        {
+            "W": "CLARKE"
+        },
+        {
+            "P": "SR"
+        },
+        {
+            "W": "CLIA"
+        }
+    ]
+}
+>>>>>>> c3c97ac4bbfca2cc64738cb5987a4a1473270d4a
