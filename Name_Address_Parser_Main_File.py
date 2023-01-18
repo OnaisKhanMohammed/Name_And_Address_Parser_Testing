@@ -205,7 +205,7 @@ class NameAddressParser:
                              row = 50,
                              padx = 10,
                              pady = 10)
-        Or_Label=ttk.Label(tab2,text="Enter Name").grid(column = 4, 
+        Or_Label=ttk.Label(tab2,text="Enter Address").grid(column = 4, 
                                  row = 10,
                                  padx = 10,
                                  pady = 10) 
@@ -297,7 +297,7 @@ class NameAddressParser:
             else: msg.showerror("Warning","Input file is not selected.")
 
             return
-        Or_Label=ttk.Label(tab3,text="Enter Name").grid(column = 4, 
+        Or_Label=ttk.Label(tab3,text="Enter Name And Address").grid(column = 4, 
                                  row = 10,
                                  padx = 10,
                                  pady = 10) 
