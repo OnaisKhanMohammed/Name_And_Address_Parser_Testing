@@ -3,10 +3,10 @@ from tkinter import ttk
 from datetime import date
 import tkinter.filedialog as fd
 import tkinter.messagebox as msg
-import NameParser___Module as NModule
 import pandas as pd
 from functools import partial
 import json
+import NameParser___Module as NModule
 import NameAddressParser__Module as NaM
 import Address_Parser__Module as AdM
 import SingleNameParser_Module as NAD_API

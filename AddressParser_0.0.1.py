@@ -48,6 +48,7 @@ with open('ConvertedJSONAddressesOutput.json', 'r+', encoding='utf-8') as M:
         Mask=[]
         Combine=""
         LoopCheck=1
+        print(AddressList)
         for A in AddressList:
             FirstPhaseDict={}
             NResult=False

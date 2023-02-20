@@ -1,224 +1,19 @@
 {
-    "NWFSSNWWTN": [
+    "NWFFF,WW,T,N": [
         {
-            "N": "1701"
+            "N": "1000"
         },
         {
-            "W": "WESTAPRK"
+            "W": "MARKHAM"
         },
         {
-            "F": "DRIVE"
-        },
-        {
-            "S": "APT"
-        },
-        {
-            "S": "#"
-        },
-        {
-            "N": "110"
-        },
-        {
-            "W": "LITTLE"
-        },
-        {
-            "W": "ROCK"
-        },
-        {
-            "T": "ARK"
-        },
-        {
-            "N": "72204"
-        }
-    ],
-    "NWF,SSN,WW,TN": [
-        {
-            "N": "1701"
-        },
-        {
-            "W": "WESTAPRK"
-        },
-        {
-            "F": "DRIVE"
-        },
-        {
-            "S": "APT"
-        },
-        {
-            "S": "#"
-        },
-        {
-            "N": "110"
-        },
-        {
-            "W": "LITTLE"
-        },
-        {
-            "W": "ROCK"
-        },
-        {
-            "T": "ARK"
-        },
-        {
-            "N": "72204"
-        }
-    ],
-    "NWF,SN,WW,TN": [
-        {
-            "N": "1701"
-        },
-        {
-            "W": "WESTPARK"
-        },
-        {
-            "F": "DRIVE"
-        },
-        {
-            "S": "APARTMENT"
-        },
-        {
-            "N": "110"
-        },
-        {
-            "W": "LITTLE"
-        },
-        {
-            "W": "ROCK"
-        },
-        {
-            "T": "ARK"
-        },
-        {
-            "N": "72204"
-        }
-    ],
-    "NWF,SN,WW,T": [
-        {
-            "N": "1701"
-        },
-        {
-            "W": "WESTPARK"
-        },
-        {
-            "F": "DRIVE"
-        },
-        {
-            "S": "APT"
-        },
-        {
-            "N": "110"
-        },
-        {
-            "W": "LITTLE"
-        },
-        {
-            "W": "ROCK"
-        },
-        {
-            "T": "ARK"
-        }
-    ],
-    "NWFSN,WW,TN": [
-        {
-            "N": "1701"
-        },
-        {
-            "W": "WESTPARK"
-        },
-        {
-            "F": "DRIVE"
-        },
-        {
-            "S": "APT"
-        },
-        {
-            "N": "110"
-        },
-        {
-            "W": "LITTLE"
-        },
-        {
-            "W": "ROCK"
-        },
-        {
-            "T": "ARK"
-        },
-        {
-            "N": "72204"
-        }
-    ],
-    "NWFFWTN": [
-        {
-            "N": "1990"
-        },
-        {
-            "W": "CHAMMAK"
-        },
-        {
-            "F": "DRIVE"
-        },
-        {
-            "F": "FORT"
-        },
-        {
-            "W": "WORTH"
-        },
-        {
-            "T": "AR"
-        },
-        {
-            "N": "20119"
-        }
-    ],
-    "NWFWWTN": [
-        {
-            "N": "99"
-        },
-        {
-            "W": "CREEKWOOD"
+            "F": "STREET"
         },
         {
             "F": "AVENUE"
         },
         {
-            "W": "THOUSAND"
-        },
-        {
-            "W": "OAKS"
-        },
-        {
-            "T": "CA"
-        },
-        {
-            "N": "99882"
-        }
-    ],
-    "NDFF": [
-        {
-            "N": "1701"
-        },
-        {
-            "D": "WEST"
-        },
-        {
-            "F": "PARK"
-        },
-        {
-            "F": "MEADOWS"
-        }
-    ],
-    "NDFFWWTW": [
-        {
-            "N": "1701"
-        },
-        {
-            "D": "WEST"
-        },
-        {
-            "F": "PARK"
-        },
-        {
-            "F": "MEADOWS"
+            "F": "PLAZA"
         },
         {
             "W": "LITTLE"
@@ -230,65 +25,36 @@
             "T": "ARKANSAS"
         },
         {
-            "W": ""
+            "N": "722039-2223"
         }
     ],
-    "NDWNFFF,TN": [
+    "NWFFF,WW,,T,N": [
         {
-            "N": "2"
+            "N": "1000"
         },
         {
-            "D": "SOUTH"
+            "W": "MARKHAM"
         },
         {
-            "W": "ELM"
+            "F": "STREET"
         },
         {
-            "N": "77TH"
+            "F": "AVENUE"
         },
         {
-            "F": "STR"
+            "F": "PLAZA"
         },
         {
-            "F": "PARK"
+            "W": "LITTLE"
         },
         {
-            "F": "FOREST"
+            "W": "ROCK"
         },
         {
-            "T": "IL"
+            "T": "ARKANSAS"
         },
         {
-            "N": "09001"
-        }
-    ],
-    "NDWNFFFTN": [
-        {
-            "N": "12"
-        },
-        {
-            "D": "SOUTH"
-        },
-        {
-            "W": "ELM"
-        },
-        {
-            "N": "77TH"
-        },
-        {
-            "F": "STR"
-        },
-        {
-            "F": "PARK"
-        },
-        {
-            "F": "FOREST"
-        },
-        {
-            "T": "IL"
-        },
-        {
-            "N": "09001"
+            "N": "722039-2223"
         }
     ]
 }

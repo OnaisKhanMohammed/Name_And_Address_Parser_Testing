@@ -4,7 +4,7 @@ Created on Sat Dec 31 12:04:17 2022
 
 @author: onais
 """
-
+import json
 
 Stdfile=open("Standardization_Codes.txt","r")
 def StdAddress(Address):
@@ -23,6 +23,8 @@ def StdAddress(Address):
         
     return Address
 
+Address=json.load(open("ConvertedJSONAddressesOutput.json","r"))
 
-Address={"USAD_SNO":"1232","USAD_SNM":"WESTPARK","USAD_SFX":"STREET","USAD_STA":"ARKANSAS","USAD_ZIP":"72203-2099"}
-print(StdAddress(Address))
+for i in Address.items():
+    print(StdAddress(i[1]))
+    print("\n\n")
