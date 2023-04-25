@@ -150,5 +150,91 @@
                 "USAD_ZIP": "90009"
             }
         }
+    },
+    "NWF,W,TN,": {
+        "2": {
+            "Name": {},
+            "Address": {
+                "USAD_SNO": "14646",
+                "USAD_SNM": "RANCHERO",
+                "USAD_SFX": "RD",
+                "USAD_CTY": "HESPERIA",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "92345"
+            }
+        }
+    },
+    "NWF,W,TN,PWW,Q,Q": {
+        "2": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JOHN",
+                "Surname": "TALBURT",
+                "Suffix Title": "IQCP PHD"
+            },
+            "Address": {
+                "USAD_SNO": "14646",
+                "USAD_SNM": "RANCHERO",
+                "USAD_SFX": "RD",
+                "USAD_CTY": "HESPERIA",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "92345"
+            }
+        }
+    },
+    "NWF,W,TN,PWW": {
+        "2": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JOHN",
+                "Surname": "TALBURT"
+            },
+            "Address": {
+                "USAD_SNO": "14646",
+                "USAD_SNM": "RANCHERO",
+                "USAD_SFX": "RD",
+                "USAD_CTY": "HESPERIA",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "92345"
+            }
+        }
+    },
+    "NWF,W,TN,PWW,Q": {
+        "2": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JOHN",
+                "Surname": "TALBURT",
+                "Suffix Title": "IQCP"
+            },
+            "Address": {
+                "USAD_SNO": "14646",
+                "USAD_SNM": "RANCHERO",
+                "USAD_SFX": "RD",
+                "USAD_CTY": "HESPERIA",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "92345"
+            }
+        }
+    },
+    "WWWW,WZ,NWF,W,TN,PWWP,Q,": {
+        "1": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JAMES",
+                "Surname": "PARKER",
+                "Generational Suffix": "SR",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "450",
+                "USAD_SNM": "SERRA",
+                "USAD_SFX": "MALL",
+                "USAD_CTY": "STANFORD",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "9430",
+                "USAD_ORG": "DEPARTMENT OF POLITICAL SCIENCE STANFORD UNIVERSITY"
+            }
+        }
     }
 }

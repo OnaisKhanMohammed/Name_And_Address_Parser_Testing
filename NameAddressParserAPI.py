@@ -303,7 +303,7 @@ def parserFun(Lines):
         return dataFinal
         json.dump(dataFinal, M,indent=4)
         M.truncate()
-        
+    
     # print("Address Matching Report")
     # print("Total=",Count)
     # print("Matched Addresses=",Observation)

@@ -14,11 +14,12 @@ class PreProcessingNameAddress:
     def __init__(self):
         self
     def AddresssCleaning(self,line):
-        line=re.sub(r'[^a-zA-Z0-9\s,#-]+', '',line)
+        line=re.sub(r'[^a-zñáéíóúüÑÁÉÍÓÚÜA-Z0-9\s,#-]+', '',line)
     
         Address=re.sub(' +', ' ',line)
         Address=re.sub(',',' , ',Address)
         Address=Address.upper()
+        
         AddressList = re.split("\s|\s,\s", Address)
         try:
             AddressList.remove("")

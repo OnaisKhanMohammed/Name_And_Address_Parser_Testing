@@ -7,17 +7,25 @@ Created on Sun Oct 30 13:32:17 2022
 import re
 import collections 
 import json 
+from sklearn.metrics import multilabel_confusion_matrix,confusion_matrix,classification_report
+import pandas as pd
 #Parsing 1st program
 
 def ExtractNames(File,TruthSet):
     FinalMappings={}
     Truth_Result={}
+    Result={}
+    Detailed_Report=""
     Name_4CAF50=open(File,"r")
     Lines = Name_4CAF50.readlines()
-    fileHandle = open('NamesWordTableOpt.txt', 'r')
+    fileHandle = open('NamesWordTable.txt', 'r')
     # Strips the newline character
     Observation=0
     Total=0
+    USAD_Conversion_Dict= {"Prefix Title":1,"Given Name":2, "Surname":3,"Generational Suffix":4, "Suffix Title":5}    
+    USAD_CONVERSION_={"1":"Prefix Title","2":"Given Name", "3":"Surname","4" :"Generational Suffix", "5":"Suffix Title"}
+    
+    
     for line in Lines:
         Total+=1
         Names_Conversion_Dict={"1":"Prefix Title","2":"Given Name", "3":"Surname","4" :"Generational Suffix", "5":"Suffix Title"}    
@@ -102,6 +110,18 @@ def ExtractNames(File,TruthSet):
                        Temp=Temp.strip()
                        Mappings[K2]=Temp
             FinalMappings[ID]=Mappings
+            
+            try:
+                Truth_Result[ID]=Mappings
+                Result[ID]=Mappings
+                
+            except:
+                Result[ID]=Mappings
+                Truth_Result[ID]=Mappings
+                
+            
+            
+            
         elif not FoundExcept:  
             with open('NameExceptionFile.json', 'r+', encoding='utf-8') as g:
                 Stat = json.load(g)
@@ -112,34 +132,67 @@ def ExtractNames(File,TruthSet):
     Result={}  
     Count_of_Correct=0
     Total_Count=0
-    try:
-            
-        with open(TruthSet, 'r+', encoding='utf-8') as g:
-            Stat = json.load(g)
-            Count_of_Correct=0
-            Total_Count=0
-            for key,value in Truth_Result.items():
-                Total_Count=len(Truth_Result)
-                if key in Stat.keys():
-                    Count1=0
-                    Count_total=0
-                    for k1,v1 in value.items():
-                        Count_total+=len(Stat[key])
-                        for k2,v2 in Stat[key].items():
-                            if collections.Counter(value[k1]) == collections.Counter(Stat[key][k2]) and k1==k2:
-                                Count1+=len(Stat[key]) 
-                    print("ID:",key, "Percentage of Correctness",round((Count1/Count_total)*100,2),"%")
-                    if (round((Count1/Count_total)*100))>99:
-                              Count_of_Correct+=1
-    except:
-        print()
+    y_test=[]
+    y_predict=[]
+    with open("Name annotations.json", 'r+', encoding='utf-8') as g:
+        Stat = json.load(g)
+        Count_of_Correct=0
+        Total_Count=0
+        ID=1
+        for k in Stat["annotations"]:
+            res=""
+            for m in k[1].items():
+
+                for j in m[1]:
+                    predict=False
+                    y_test.append(USAD_Conversion_Dict[j[2]])
+                    for k1,v1 in Truth_Result[str(ID)].items():
+                        
+                        if re.sub('\W+','', v1.strip().upper()) == re.sub('\W+','', k[0][j[0]:j[1]].upper().strip()):
+                            y_predict.append(USAD_Conversion_Dict[k1])
+                            
+                            predict=True
+                            break
+                    if not predict:
+                        #y_predict.append(0)
+                        y_test.pop()
+                        
+                            
+                            
+          
+            ID+=1
+
+    import numpy as np
+    from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+    Confusion =  multilabel_confusion_matrix(y_test, y_predict)
+    df=classification_report(y_test,y_predict,output_dict=True)
+    df_report = pd.DataFrame(df).transpose()
+    df_report.reset_index(inplace=True)
+    df_report=df_report.replace({"index": USAD_CONVERSION_})
+    df_report.to_csv("Metrics.csv")
+    
     RTruth=0
     try:
         RTruth=(Count_of_Correct/Total_Count*100)
     except:
         print()
+    Detailed_Report+="Output From Active Learning\n\n"
+    ActiveLResult = json.dumps(Truth_Result, indent = 4,ensure_ascii=False) 
+    Detailed_Report+=str(ActiveLResult)
+    Detailed_Report+="\n\nNumber of Exceptions Thrown: -\t"+str(Total-Observation)+"\n"
+    Detailed_Report+="Number of Parsed Address: -\t"+str(Observation)+"\n"
+    Detailed_Report+="Percentage of Parsed Result: -\t"+str((Observation/Total)*100)+"\n"
+    Detailed_Report+="\n\n Evaluation Metrics\n\n"
+
+    Detailed_Report+=str(df_report)
+    f=open("Detailed_Report_Names.txt","w",encoding="utf8")
+
+    f.write(Detailed_Report)
+    f.close()
     return (FinalMappings,(Observation/Total)*100,RTruth)
         
+
+ExtractNames("Names input file.txt","Names Annotations.json")
     
     
     

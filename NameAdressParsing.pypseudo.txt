@@ -30,7 +30,7 @@ SET count TO 0
 
 FinalList=[]
 
-SET fileHandle TO open('USAddressWordTable.txt', 'r')
+SET fileHandle TO open('USAddressWordTable.txt', 'r',encoding="utf8")
 
 SET NamefileHandle TO open('NamesWordTableOpt.txt', 'r')
 
@@ -58,535 +58,487 @@ Total=0
 
 dataFinal={}
 
-with open('NameAndAddressMainOutput.json', 'r+', encoding='utf-8') as M:
-
-    dataFinal= json.load(M)
 
 
+FOR line IN Lines:
 
-    FOR line IN Lines:
+    line=line.strip("\n").split("|")
 
-        line=line.strip("\n").split("|")
+    ID=line[0]
 
-        ID=line[0]
+    line=line[1] .strip() 
 
-        line=line[1] .strip() 
+    Old_Address=line.strip()
 
-        Old_Address=line.strip()
+    USAD_Conversion_Dict={"1":"USAD_SNO","2":"USAD_SPR","3":"USAD_SNM","4":"USAD_SFX","5":"USAD_SPT","6":"USAD_ANM","7":"USAD_ANO","8":"USAD_CTY","9":"USAD_STA","10":"USAD_ZIP","11":"USAD_ZP4","12":"USAD_BNM","13":"USAD_BNO","14":"USAD_RNM"}
 
-        USAD_Conversion_Dict={"1":"USAD_SNO","2":"USAD_SPR","3":"USAD_SNM","4":"USAD_SFX","5":"USAD_SPT","6":"USAD_ANM","7":"USAD_ANO","8":"USAD_CTY","9":"USAD_STA","10":"USAD_ZIP","11":"USAD_ZP4","12":"USAD_BNM","13":"USAD_BNO","14":"USAD_RNM"}
+    USAD_Conversion_Dict_Detail={"1":"USAD_SNO Street Number","2":"USAD_SPR Street Pre-directional","3":"USAD_SNM Street Name","4":"USAD_SFX Street Suffix","5":"USAD_SPT Street Post-directional","6":"USAD_ANM Secondary Address Name","7":"USAD_ANO Secondary Address Number","8":"USAD_CTY City Name","9":"USAD_STA State Name","10":"USAD_ZIP Zip Code","11":"USAD_ZP4 Zip 4 Code","12":"USAD_BNM Box Name","13":"USAD_BNO Box Number","14":"USAD_RNM Route Name"}
 
-        
+    List=USAD_Conversion_Dict.keys()
 
-        USAD_Conversion_Dict_Detail={"1":"USAD_SNO Street Number","2":"USAD_SPR Street Pre-directional","3":"USAD_SNM Street Name","4":"USAD_SFX Street Suffix","5":"USAD_SPT Street Post-directional","6":"USAD_ANM Secondary Address Name","7":"USAD_ANO Secondary Address Number","8":"USAD_CTY City Name","9":"USAD_STA State Name","10":"USAD_ZIP Zip Code","11":"USAD_ZP4 Zip 4 Code","12":"USAD_BNM Box Name","13":"USAD_BNO Box Number","14":"USAD_RNM Route Name"}
+    FirstPhaseList=[]
 
-    
+    Address=re.sub(',',' , ',line)
 
-        
+    Address=re.sub(' +', ' ',Address)
 
-        List=USAD_Conversion_Dict.keys()
+    Address=re.sub('[.]','',Address)
 
-        FirstPhaseList=[]
+    #Address=re.sub('#','',Address)    
 
-        Address=re.sub(',',' , ',line)
+    Address=Address.upper()
 
-        Address=re.sub(' +', ' ',Address)
+    SET AddressList TO re.split("\s|\s,\s ", Address)
 
-        Address=re.sub('[.]','',Address)
+    tmp1=0
 
-        #Address=re.sub('#','',Address)    
+    NameList=[]
 
-        Address=Address.upper()
+    RevisedAddressList=[]
 
-        SET AddressList TO re.split("\s|\s,\s ", Address)
+    SplitMask=""
 
-        tmp1=0
+    FOR A IN AddressList:
 
-        NameList=[]
+        FirstPhaseDict={}
 
-        RevisedAddressList=[]
+        NResult=False
 
-        SplitMask=""
+        TRY:
 
-        FOR A IN AddressList:
+            Compare=A[0].isdigit()
 
-            FirstPhaseDict={}
+        EXCEPT:
 
-            NResult=False
+            a=0
 
-            TRY:
+        IF A==",":
 
-                Compare=A[0].isdigit()
+            SplitMask+=","
 
-            EXCEPT:
+        ELSEIF Compare:
 
-                a=0
+            SplitMask+="A"
 
-            IF A==",":
+        ELSE:
 
-                SplitMask+=","
+            NR=True
 
-            ELSEIF Compare:
+            FOR line IN SplitWordTable:
 
-                SplitMask+="A"
+            
 
-            ELSE:
+                fields=line.split('|')
 
-                NR=True
+                IF A==(fields[0]):
 
-                FOR line IN SplitWordTable:
+                    SplitMask+=fields[1].strip()
 
-                
+                    NR=False
 
-                    fields=line.split('|')
+                    break
 
-                    IF A==(fields[0]):
+            IF NR:
 
-                        SplitMask+=fields[1].strip()
+                SplitMask+="W"
 
-                        NR=False
+        SplitWordTable.seek(0)
 
-                        break
+    Name=""
 
-                IF NR:
+    indexSplit=0
 
-                    SplitMask+="W"
+    FOR m IN range(len(SplitMask)):
 
-            SplitWordTable.seek(0)
+        IF SplitMask[m] IN ("W","P",",") :
 
-        Name=""
+            continue
 
-        indexSplit=0
+        ELSE:
 
-        OUTPUT("\n\n\n",SplitMask)
+            indexSplit=m
 
-        FOR m IN range(len(SplitMask)):
+            break 
 
-            IF SplitMask[m] IN ("W","P",",") :
+    SET RevisedAddressList TO AddressList[indexSplit:len(AddressList)]
 
-                continue
+    SET NameList TO AddressList[0:indexSplit]
 
-            ELSE:
 
-                indexSplit=m
-
-                break
 
     
 
-        SET RevisedAddressList TO AddressList[indexSplit:len(AddressList)]
+    
 
-        SET NameList TO AddressList[0:indexSplit]
+    
 
-        
+    #del(AddressList[len(AddressList)-1])
 
-        IF NameList[len(NameList)-1]==",":
+    TrackKey=[]
 
-            NameList.pop(len(NameList)-1)
+    Mask=[]
 
-        FOR i IN AddressList:
+    Combine=""
 
-            IF i=="PO" or i=="POBOX":
+    LoopCheck=1
 
-                SET RevisedAddressList TO AddressList[tmp1:len(AddressList)]
+    FOR A IN RevisedAddressList:
 
-                SET NameList TO AddressList[0:tmp1]
+        FirstPhaseDict={}
 
-                break
+        NResult=False
 
-            TRY:
+        TRY:
 
-                Compare=i.isdigit()
+            Compare=A[0].isdigit()
 
-            EXCEPT:    
+        EXCEPT:
 
-                a=0
+            a=0
 
-            IF Compare==True:
+        IF A==",":
 
-                SET RevisedAddressList TO AddressList[tmp1:len(AddressList)]
+            O=0
 
-                SET NameList TO AddressList[0:tmp1]
+            Mask.append(Combine)
 
-                break
+            Combine=""
 
-            tmp1+=1
+            FirstPhaseList.append(",")
 
-        IF NameList[len(NameList)-1]==",":
+            #FirstPhaseList.append("Seperator")
 
-            NameList.pop(len(NameList)-1)
+        ELSEIF Compare:
 
-        
+            Combine+="N"
 
-        #del(AddressList[len(AddressList)-1])
+            TrackKey.append("N")
 
-        TrackKey=[]
+            FirstPhaseDict["N"]=A
 
-        Mask=[]
+            FirstPhaseList.append(FirstPhaseDict)
 
-        Combine=""
+        ELSE:
 
-        LoopCheck=1
+            FOR line IN fileHandle:
 
-        FOR A IN RevisedAddressList:
+                fields=line.split('|')
 
-            FirstPhaseDict={}
+                IF A==(fields[0]):
 
-            NResult=False
+                    NResult=True
 
-            TRY:
+                    temp=fields[1]
 
-                Compare=A[0].isdigit()
+                    Combine+=temp[0]
 
-            EXCEPT:
-
-                a=0
-
-            IF A==",":
-
-                O=0
-
-                Mask.append(Combine)
-
-                Combine=""
-
-                FirstPhaseList.append(",")
-
-                #FirstPhaseList.append("Seperator")
-
-            ELSEIF Compare:
-
-                Combine+="N"
-
-                TrackKey.append("N")
-
-                FirstPhaseDict["N"]=A
-
-                FirstPhaseList.append(FirstPhaseDict)
-
-            ELSE:
-
-                FOR line IN fileHandle:
-
-                    fields=line.split('|')
-
-                    IF A==(fields[0]):
-
-                        NResult=True
-
-                        temp=fields[1]
-
-                        Combine+=temp[0]
-
-                        SET FirstPhaseDict[temp[0]] TO A
-
-                        FirstPhaseList.append(FirstPhaseDict)
-
-                        TrackKey.append(temp[0])
-
-                IF NResult==False:
-
-                    Combine+="W"
-
-                    TrackKey.append("W")
-
-                    SET FirstPhaseDict["W"] TO A
+                    SET FirstPhaseDict[temp[0]] TO A
 
                     FirstPhaseList.append(FirstPhaseDict)
 
-            IF LoopCheck==len(RevisedAddressList):
+                    TrackKey.append(temp[0])
 
-                Mask.append(Combine)
+            IF NResult==False:
 
-            fileHandle.seek(0)
+                Combine+="W"
 
-            LoopCheck+=1    
+                TrackKey.append("W")
 
-        FirstPhaseListAddress=FirstPhaseList
+                SET FirstPhaseDict["W"] TO A
 
-        Mask_1=",".join(Mask)
+                FirstPhaseList.append(FirstPhaseDict)
 
-        USAD_Mapping={"USAD_SNO":[],"USAD_SPR":[],"USAD_SPR":[],"USAD_SNM":[],"USAD_SFX":[],"USAD_SPT":[],"USAD_ANM":[],"USAD_ANO":[],"USAD_CTY":[],"USAD_STA":[],"USAD_ZIP":[],"USAD_ZP4":[],"USAD_BNM":[],"USAD_BNO":[],"USAD_RNM":[]}
+        IF LoopCheck==len(RevisedAddressList):
 
-        Start=0
+            Mask.append(Combine)
 
-        Counts=0
+        fileHandle.seek(0)
 
-        FirstPhase_WithComma=FirstPhaseList
+        LoopCheck+=1    
 
-        SET FirstPhaseList TO [FirstPhaseList[b] FOR b IN range(len(FirstPhaseList)) IF FirstPhaseList[b] != ","]
+    FirstPhaseListAddress=FirstPhaseList
 
-        data={}
+    Mask_1=",".join(Mask)
 
-        with open('JSONMappingDefault.json', 'r+', encoding='utf-8') as f:
+    USAD_Mapping={"USAD_SNO":[],"USAD_SPR":[],"USAD_SPR":[],"USAD_SNM":[],"USAD_SFX":[],"USAD_SPT":[],"USAD_ANM":[],"USAD_ANO":[],"USAD_CTY":[],"USAD_STA":[],"USAD_ZIP":[],"USAD_ZP4":[],"USAD_BNM":[],"USAD_BNO":[],"USAD_RNM":[]}
 
-            SET data TO json.load(f)
+    Start=0
 
-        Found=False
+    Counts=0
 
-        FoundDict={}
+    FirstPhase_WithComma=FirstPhaseList
 
-        FOR tk,tv IN data.items():
+    SET FirstPhaseList TO [FirstPhaseList[b] FOR b IN range(len(FirstPhaseList)) IF FirstPhaseList[b] != ","]
 
-            if(tk==Mask_1):
+    data={}
 
-                FoundDict[tk]=tv
+    with open('JSONMAPPING-DummyFile.json', 'r+', encoding='utf-8') as f:
 
-                Found=True
+        SET data TO json.load(f)
 
-                break
+    Found=False
 
-        FoundExcept=False
+    FoundDict={}
+
+    FOR tk,tv IN data.items():
+
+        if(tk==Mask_1):
+
+            FoundDict[tk]=tv
+
+            Found=True
+
+            break
+
+    FoundExcept=False
+
+    with open('ExceptionFile.json', 'r+', encoding='utf-8') as g:
+
+        SET Stat TO json.load(g)
+
+        IF Mask_1 IN Stat.keys():
+
+            FoundExcept=True
+
+    FirstPhaseList=[]
+
+    NameTrackKey=[]
+
+    Mask=[]
+
+    Combine=""
+
+    LoopCheck=1
+
+    FOR A IN NameList:
+
+        FirstPhaseDict={}
+
+        NResult=False
+
+        IF A==",":
+
+            O=0
+
+            Mask.append(Combine)
+
+            Combine=""
+
+            FirstPhaseList.append(",")
+
+            #FirstPhaseList.append("Seperator")
+
+        ELSEIF A==" ":
+
+            continue
+
+        ELSEIF A!="," and len(A)==1:
+
+            Combine+="I"
+
+            TrackKey.append("I")
+
+            SET FirstPhaseDict["I"] TO A
+
+            FirstPhaseList.append(FirstPhaseDict)
+
+        ELSE:
+
+            FOR line IN NamefileHandle:
+
+                fields=line.split('|')
+
+                IF A==(fields[0]):
+
+                    NResult=True
+
+                    temp=fields[1]
+
+                    Combine+=temp[0]
+
+                    SET FirstPhaseDict[temp[0]] TO A
+
+                    FirstPhaseList.append(FirstPhaseDict)
+
+                    TrackKey.append(temp[0])
+
+                    break
+
+            IF NResult==False:
+
+                Combine+="W"
+
+                TrackKey.append("W")
+
+                SET FirstPhaseDict["W"] TO A
+
+                FirstPhaseList.append(FirstPhaseDict)
+
+        IF LoopCheck==len(NameList):
+
+            Mask.append(Combine)
+
+        NamefileHandle.seek(0)
+
+        LoopCheck+=1
+
+
+
+    FirstPhaseListName=FirstPhaseList
+
+    NameMask_1=",".join(Mask)
+
+    Names_Conversion_Mapping={"Prefix Title":[],"Given Name":[], "Surname":[],"Generational Suffix":[],"Suffix Title":[]}
+
+    Start=0
+
+    Counts=0
+
+    FirstPhase_WithComma=FirstPhaseListName
+
+    SET FirstPhaseListName TO [FirstPhaseListName[b] FOR b IN range(len(FirstPhaseListName)) IF FirstPhaseListName[b] != ","]
+
+    data={}
+
+    with open('JSONMappingNameDefault.json', 'r+', encoding='utf-8') as f:
+
+        SET data TO json.load(f)
+
+    FoundName=False
+
+    NameFoundDict={}
+
+    FOR tk,tv IN data.items():
+
+        if(tk==NameMask_1):
+
+            NameFoundDict[tk]=tv
+
+            FoundName=True
+
+            break
+
+    FoundExceptname=False
+
+    with open('NameExceptionFile.json', 'r+', encoding='utf-8') as g:
+
+        SET Stat TO json.load(g)
+
+        IF NameMask_1 IN Stat.keys():
+
+            FoundExceptname=True
+
+    
+
+    
+
+   
+
+   
+
+    
+
+    SET FirstPhaseListAddress TO [FirstPhaseListAddress[b] FOR b IN range(len(FirstPhaseListAddress)) IF FirstPhaseListAddress[b] != ","]
+
+    IF Found and FoundName:
+
+        Observation+=1
+
+        AllAddress_Key_Value_As_MASK_Comp={}
+
+        Mappings={"Name":{},"Address":{}}
+
+        FOR K2,V2 IN FoundDict[Mask_1].items():
+
+            Temp=""
+
+            FOR p IN V2:
+
+                
+
+                FOR K3,V3 IN FirstPhaseListAddress[p-1].items():
+
+                   Temp+=" "+V3
+
+                   Temp=Temp.strip()
+
+                   Mappings["Address"][K2]=Temp
+
+        AllAddress_Key_Value_As_MASK_Comp={}
+
+        FOR K2,V2 IN NameFoundDict[NameMask_1].items():
+
+            Temp=""
+
+            FOR p IN V2:
+
+                FOR K3,V3 IN FirstPhaseListName[p-1].items():
+
+                   Temp+=" "+V3
+
+                   Temp=Temp.strip()
+
+                   Mappings["Name"][K2]=Temp
+
+        CombinedMask=Mask_1+","+NameMask_1
+
+      
+
+        TRY:
+
+            dataFinal[CombinedMask][ID] =Mappings
+
+        EXCEPT:
+
+            dataFinal[CombinedMask]={}
+
+            dataFinal[CombinedMask][ID]=Mappings
+
+    ELSEIF not FoundExcept:  
 
         with open('ExceptionFile.json', 'r+', encoding='utf-8') as g:
 
             SET Stat TO json.load(g)
 
-            IF Mask_1 IN Stat.keys():
+            Stat[Mask_1]=FirstPhaseListAddress
 
-                FoundExcept=True
+            g.seek(0)
 
-        FirstPhaseList=[]
+            json.dump(Stat,g,indent=4)
 
-        NameTrackKey=[]
+            g.truncate
 
-        Mask=[]
-
-        Combine=""
-
-        LoopCheck=1
-
-        FOR A IN NameList:
-
-            FirstPhaseDict={}
-
-            NResult=False
-
-            IF A==",":
-
-                O=0
-
-                Mask.append(Combine)
-
-                Combine=""
-
-                FirstPhaseList.append(",")
-
-                #FirstPhaseList.append("Seperator")
-
-            ELSEIF A==" ":
-
-                continue
-
-            ELSEIF A!="," and len(A)==1:
-
-                Combine+="I"
-
-                TrackKey.append("I")
-
-                SET FirstPhaseDict["I"] TO A
-
-                FirstPhaseList.append(FirstPhaseDict)
-
-            ELSE:
-
-                FOR line IN NamefileHandle:
-
-                    fields=line.split('|')
-
-                    IF A==(fields[0]):
-
-                        NResult=True
-
-                        temp=fields[1]
-
-                        Combine+=temp[0]
-
-                        SET FirstPhaseDict[temp[0]] TO A
-
-                        FirstPhaseList.append(FirstPhaseDict)
-
-                        TrackKey.append(temp[0])
-
-                        break
-
-                IF NResult==False:
-
-                    Combine+="W"
-
-                    TrackKey.append("W")
-
-                    SET FirstPhaseDict["W"] TO A
-
-                    FirstPhaseList.append(FirstPhaseDict)
-
-            IF LoopCheck==len(NameList):
-
-                Mask.append(Combine)
-
-            NamefileHandle.seek(0)
-
-            LoopCheck+=1
-
-
-
-        FirstPhaseListName=FirstPhaseList
-
-        NameMask_1=",".join(Mask)
-
-        Names_Conversion_Mapping={"Prefix Title":[],"Given Name":[], "Surname":[],"Generational Suffix":[],"Suffix Title":[]}
-
-        Start=0
-
-        Counts=0
-
-        FirstPhase_WithComma=FirstPhaseListName
-
-        SET FirstPhaseListName TO [FirstPhaseListName[b] FOR b IN range(len(FirstPhaseListName)) IF FirstPhaseListName[b] != ","]
-
-        data={}
-
-        with open('JSONMappingNameDefault.json', 'r+', encoding='utf-8') as f:
-
-            SET data TO json.load(f)
-
-        FoundName=False
-
-        NameFoundDict={}
-
-        FOR tk,tv IN data.items():
-
-            if(tk==NameMask_1):
-
-                NameFoundDict[tk]=tv
-
-                FoundName=True
-
-                break
-
-        FoundExceptname=False
+    ELSEIF not FoundExceptname:  
 
         with open('NameExceptionFile.json', 'r+', encoding='utf-8') as g:
 
             SET Stat TO json.load(g)
 
-            IF NameMask_1 IN Stat.keys():
+            Stat[NameMask_1]=FirstPhaseListName
 
-                FoundExceptname=True
+            g.seek(0)
 
-        
+            json.dump(Stat,g,indent=4)
 
-        
+            g.truncate
 
-       
+    
 
-       
-
-        
-
-        SET FirstPhaseListAddress TO [FirstPhaseListAddress[b] FOR b IN range(len(FirstPhaseListAddress)) IF FirstPhaseListAddress[b] != ","]
-
-        IF Found and FoundName:
-
-            Observation+=1
-
-            AllAddress_Key_Value_As_MASK_Comp={}
-
-            Mappings={"Name":{},"Address":{}}
-
-            FOR K2,V2 IN FoundDict[Mask_1].items():
-
-                Temp=""
-
-                FOR p IN V2:
-
-                    
-
-                    FOR K3,V3 IN FirstPhaseListAddress[p-1].items():
-
-                       Temp+=" "+V3
-
-                       Temp=Temp.strip()
-
-                       Mappings["Address"][K2]=Temp
-
-            AllAddress_Key_Value_As_MASK_Comp={}
-
-            FOR K2,V2 IN NameFoundDict[NameMask_1].items():
-
-                Temp=""
-
-                FOR p IN V2:
-
-                    FOR K3,V3 IN FirstPhaseListName[p-1].items():
-
-                       Temp+=" "+V3
-
-                       Temp=Temp.strip()
-
-                       Mappings["Name"][K2]=Temp
-
-            CombinedMask=Mask_1+","+NameMask_1
-
-            TRY:
-
-                IF dataFinal[Mask_1][ID]:
-
-                    continue
-
-            EXCEPT:
-
-                a=0
-
-            TRY:
-
-                dataFinal[CombinedMask][ID] =Mappings # <--- add `id` value.
-
-            EXCEPT:
-
-                dataFinal[CombinedMask]={}
-
-                dataFinal[CombinedMask][ID]=Mappings
-
-        ELSEIF not FoundExcept:  
-
-            with open('ExceptionFile.json', 'r+', encoding='utf-8') as g:
-
-                SET Stat TO json.load(g)
-
-                Stat[Mask_1]=FirstPhaseListAddress
-
-                g.seek(0)
-
-                json.dump(Stat,g,indent=4)
-
-                g.truncate
-
-        ELSEIF not FoundExceptname:  
-
-            with open('NameExceptionFile.json', 'r+', encoding='utf-8') as g:
-
-                SET Stat TO json.load(g)
-
-                Stat[NameMask_1]=FirstPhaseListName
-
-                g.seek(0)
-
-                json.dump(Stat,g,indent=4)
-
-                g.truncate
+    Total+=1
 
         
 
-        Total+=1
+    
 
-        
+SET FinalOutput TO json.dumps(dataFinal, indent=4)
 
-    M.seek(0)
+ 
 
-    json.dump(dataFinal, M,indent=4)
+# Writing to sample.json
 
-    M.truncate()
+with open("NameAndAddress_Output.json", "w") as outfile:
+
+    outfile.write(FinalOutput)    
 
     
 

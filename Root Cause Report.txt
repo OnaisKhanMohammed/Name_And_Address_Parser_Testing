@@ -1,0 +1,153 @@
+Root Cause Analysis
+
+{
+    "10": {
+        "Mask": "NDW,W,TN",
+        "Raw Address": "88 North Lockport ,Lockport , NY 14094\r",
+        "USAD_SFX_USAD_CTY": {
+            "Correct Class": "USAD_CTY",
+            "Incorrect Class": "USAD_SFX",
+            "Value": "LOCKPORT"
+        }
+    },
+    "87": {
+        "Mask": "RNXNWTN",
+        "Raw Address": "RR 3 BOX 27 Sibley LA 71073\r",
+        "USAD_RNM_USAD_ZIP": {
+            "Correct Class": "USAD_ZIP",
+            "Incorrect Class": "USAD_RNM",
+            "Value": "RR"
+        }
+    },
+    "94": {
+        "Mask": "RNXNWFN",
+        "Raw Address": "RR 11 BOX 44 Burnside KY 42519\r",
+        "USAD_STA_USAD_CTY": {
+            "Correct Class": "USAD_CTY",
+            "Incorrect Class": "USAD_STA",
+            "Value": "KY"
+        }
+    },
+    "96": {
+        "Mask": "RNXNWTN",
+        "Raw Address": "RR 13 BOX 61 Atwood KS 67730\r",
+        "USAD_STA_USAD_CTY": {
+            "Correct Class": "USAD_CTY",
+            "Incorrect Class": "USAD_STA",
+            "Value": "KS"
+        },
+        "USAD_ZIP_USAD_CTY": {
+            "Correct Class": "USAD_CTY",
+            "Incorrect Class": "USAD_ZIP",
+            "Value": "67730"
+        }
+    },
+    "118": {
+        "Mask": "RNXNDWTN",
+        "Raw Address": "RR 47 BOX 47 South Colton NY 13687\r",
+        "USAD_BNO_USAD_RNO": {
+            "Correct Class": "USAD_RNO",
+            "Incorrect Class": "USAD_BNO",
+            "Value": "47"
+        }
+    },
+    "169": {
+        "Mask": "FNXNW,TN",
+        "Raw Address": "HC 665N BOX 3 Freeport, NY 11520\r",
+        "USAD_CTY_USAD_BNO": {
+            "Correct Class": "USAD_BNO",
+            "Incorrect Class": "USAD_CTY",
+            "Value": "FREEPORT"
+        }
+    },
+    "174": {
+        "Mask": "FNXNW,TN",
+        "Raw Address": "HC 83 BOX 77 Nottingham, MD 21236\r",
+        "USAD_CTY_USAD_BNO": {
+            "Correct Class": "USAD_BNO",
+            "Incorrect Class": "USAD_CTY",
+            "Value": "NOTTINGHAM"
+        }
+    },
+    "176": {
+        "Mask": "FNXNWW,TN",
+        "Raw Address": "Hc 98 Box 323 Winston Salem, NC 27103\r",
+        "USAD_BNM_USAD_HNO": {
+            "Correct Class": "USAD_HNO",
+            "Incorrect Class": "USAD_BNM",
+            "Value": "BOX"
+        }
+    },
+    "188": {
+        "Mask": "FNXNW,TN",
+        "Raw Address": "HC 3 box 3 Coram, NY 11727\r",
+        "USAD_BNO_USAD_HNO": {
+            "Correct Class": "USAD_HNO",
+            "Incorrect Class": "USAD_BNO",
+            "Value": "3"
+        }
+    },
+    "204": {
+        "Mask": "FNXNFWF,TN",
+        "Raw Address": "hc 706 BOX 11 Point Pleasant Beach, NJ 08742\r",
+        "USAD_STA_USAD_CTY": {
+            "Correct Class": "USAD_CTY",
+            "Incorrect Class": "USAD_STA",
+            "Value": "NJ"
+        }
+    },
+    "212": {
+        "Mask": "FNXNW,TN",
+        "Raw Address": "HC 522 Box 522 Graham, NC 27253\r",
+        "USAD_BNO_USAD_HNO": {
+            "Correct Class": "USAD_HNO",
+            "Incorrect Class": "USAD_BNO",
+            "Value": "522"
+        }
+    },
+    "213": {
+        "Mask": "FNXNDW,TN",
+        "Raw Address": "Hc 253 BOx 253 North Bergen, NJ 07047\r",
+        "USAD_BNO_USAD_HNO": {
+            "Correct Class": "USAD_HNO",
+            "Incorrect Class": "USAD_BNO",
+            "Value": "253"
+        }
+    },
+    "221": {
+        "Mask": "WZWWWWW,SN,WF,FN",
+        "Raw Address": "Yale University Department of Psychology Harkness Hall, Suite 300, New Haven, CT 06520-8205\r",
+        "USAD_SNO_USAD_ANO": {
+            "Correct Class": "USAD_ANO",
+            "Incorrect Class": "USAD_SNO",
+            "Value": "300"
+        }
+    },
+    "232": {
+        "Mask": "WZWWWWWW,WN,NWF,W,TN",
+        "Raw Address": "Duke University Department of Political Science Gross Hall, Room 200, 140 Science Drive, Durham, NC 27708-0208\r",
+        "USAD_RNO_USAD_ORG": {
+            "Correct Class": "USAD_ORG",
+            "Incorrect Class": "USAD_RNO",
+            "Value": "DUKE UNIVERSITY DEPARTMENT OF POLITICAL SCIENCE GROSS HALL"
+        }
+    },
+    "241": {
+        "Mask": "TWWWZWWWWDWZWWW,WN,NWFD,W,TN",
+        "Raw Address": "Georgia Institute of Technology School of Mechanical Engineering George W Woodruff School of Mechanical Engineering, Room 200, 801 Ferst Drive NW, Atlanta, GA 30332-0405\r",
+        "USAD_SPT_USAD_SPR": {
+            "Correct Class": "USAD_SPR",
+            "Incorrect Class": "USAD_SPT",
+            "Value": "NW"
+        }
+    },
+    "257": {
+        "Mask": "TRZWWWWW,WN,NDWF,DW,TN",
+        "Raw Address": "Michigan State University College of Engineering Engineering Building, Room 428, 428 South Shaw Lane, East Lansing, MI 48824-1226\r",
+        "USAD_SNO_USAD_ANO": {
+            "Correct Class": "USAD_ANO",
+            "Incorrect Class": "USAD_SNO",
+            "Value": "428"
+        }
+    }
+}

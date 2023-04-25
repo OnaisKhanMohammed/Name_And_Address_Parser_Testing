@@ -1,0 +1,526 @@
+{
+    "WWW,ZWTWW,NWF,WW,TN,PWW,W,": {
+        "1": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JESSICA",
+                "Surname": "LEE",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "757",
+                "USAD_SNM": "WESTWOOD",
+                "USAD_SFX": "PLAZA",
+                "USAD_CTY": "LOS ANGELES",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "90095",
+                "USAD_ORG": "DEPARTMENT OF NEUROLOGY UNIVERSITY OF CALIFORNIA LOS ANGELES"
+            }
+        },
+        "19": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "DAVID",
+                "Surname": "KIM",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "505",
+                "USAD_SNM": "PARNASSUS",
+                "USAD_SFX": "AVE",
+                "USAD_CTY": "SAN FRANCISCO",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "94143",
+                "USAD_ORG": "DEPARTMENT OF DERMATOLOGY UNIVERSITY OF CALIFORNIA SAN FRANCISCO"
+            }
+        }
+    },
+    "WWW,WZ,NWF,W,TN,PWW,Q,": {
+        "2": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "DANIEL",
+                "Surname": "KIM",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "450",
+                "USAD_SNM": "SERRA",
+                "USAD_SFX": "MALL",
+                "USAD_CTY": "STANFORD",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "94305",
+                "USAD_ORG": "DEPARTMENT OF ECONOMICS STANFORD UNIVERSITY"
+            }
+        },
+        "6": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "SAMANTHA",
+                "Surname": "BROWN",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "52",
+                "USAD_SNM": "OXFORD",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "CAMBRIDGE",
+                "USAD_STA": "MA",
+                "USAD_ZIP": "02138",
+                "USAD_ORG": "DEPARTMENT OF PSYCHOLOGY HARVARD UNIVERSITY"
+            }
+        },
+        "27": {
+            "Name": {
+                "Prefix Title": "PROF",
+                "Given Name": "JENNIFER",
+                "Surname": "MARTINEZ",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "450",
+                "USAD_SNM": "SERRA",
+                "USAD_SFX": "MALL",
+                "USAD_CTY": "STANFORD",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "94305",
+                "USAD_ORG": "DEPARTMENT OF CHEMISTRY STANFORD UNIVERSITY"
+            }
+        }
+    },
+    "WWW,WZ,NDNF,WW,TN,PWW,W,": {
+        "3": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "DAVID",
+                "Surname": "CHEN",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "630",
+                "USAD_SPR": "W",
+                "USAD_SNM": "168TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "NEW YORK",
+                "USAD_STA": "NY",
+                "USAD_ZIP": "10032",
+                "USAD_ORG": "DEPARTMENT OF DENTISTRY COLUMBIA UNIVERSITY"
+            }
+        }
+    },
+    "WWW,ZWT,NWF,W,TN,PWW,W,": {
+        "4": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "EMILY",
+                "Surname": "WILSON",
+                "Suffix Title": "EDD"
+            },
+            "Address": {
+                "USAD_SNO": "3451",
+                "USAD_SNM": "WALNUT",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "PHILADELPHIA",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "19104",
+                "USAD_ORG": "DEPARTMENT OF EDUCATION UNIVERSITY OF PENNSYLVANIA"
+            }
+        },
+        "26": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JOSHUA",
+                "Surname": "KIM",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "3400",
+                "USAD_SNM": "SPRUCE",
+                "USAD_SFX": "STREET",
+                "USAD_CTY": "PHILADELPHIA",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "19104",
+                "USAD_ORG": "DEPARTMENT OF SURGERY UNIVERSITY OF PENNSYLVANIA"
+            }
+        }
+    },
+    "WWW,ZWT,NWF,WW,TN,PWW,W,": {
+        "5": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "STEVEN",
+                "Surname": "PATEL",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "4250",
+                "USAD_SNM": "PLYMOUTH",
+                "USAD_SFX": "RD",
+                "USAD_CTY": "ANN ARBOR",
+                "USAD_STA": "MI",
+                "USAD_ZIP": "48109",
+                "USAD_ORG": "DEPARTMENT OF PSYCHIATRY UNIVERSITY OF MICHIGAN"
+            }
+        }
+    },
+    "WWW,ZWDW,NWF,WF,TN,PWW,W,": {
+        "7": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "KEVIN",
+                "Surname": "LEE",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "101",
+                "USAD_SNM": "MANNING",
+                "USAD_SFX": "DR",
+                "USAD_CTY": "CHAPEL HILL",
+                "USAD_STA": "NC",
+                "USAD_ZIP": "27514",
+                "USAD_ORG": "DEPARTMENT OF PEDIATRICS UNIVERSITY OF NORTH CAROLINA"
+            }
+        }
+    },
+    "WWW,ZWWT,NDNF,WW,TN,PWW,W,": {
+        "8": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "RACHEL",
+                "Surname": "KIM",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "925",
+                "USAD_SPR": "W",
+                "USAD_SNM": "34TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "LOS ANGELES",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "90089",
+                "USAD_ORG": "DEPARTMENT OF ORTHODONTICS UNIVERSITY OF SOUTHERN CALIFORNIA"
+            }
+        },
+        "25": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "RACHEL",
+                "Surname": "KIM",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "925",
+                "USAD_SPR": "W",
+                "USAD_SNM": "34TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "LOS ANGELES",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "90089",
+                "USAD_ORG": "DEPARTMENT OF DENTISTRY UNIVERSITY OF SOUTHERN CALIFORNIA"
+            }
+        }
+    },
+    "WWWW,TWWW,NTF,W,TN,PWW,Q,": {
+        "9": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "BENJAMIN",
+                "Surname": "LEE",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "77",
+                "USAD_SNM": "MASSACHUSETTS",
+                "USAD_SFX": "AVE",
+                "USAD_CTY": "CAMBRIDGE",
+                "USAD_STA": "MA",
+                "USAD_ZIP": "02139",
+                "USAD_ORG": "DEPARTMENT OF COMPUTER SCIENCE MASSACHUSETTS INSTITUTE OF TECHNOLOGY"
+            }
+        }
+    },
+    "WWW,WWZ,NWF,W,TN,PWW,W,": {
+        "10": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "KIMBERLY",
+                "Surname": "WONG",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "1800",
+                "USAD_SNM": "ORLEANS",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "BALTIMORE",
+                "USAD_STA": "MD",
+                "USAD_ZIP": "21287",
+                "USAD_ORG": "DEPARTMENT OF CARDIOLOGY JOHNS HOPKINS UNIVERSITY"
+            }
+        }
+    },
+    "WWW,WWZ,NNF,WW,TN,PWW,W,": {
+        "11": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "CHRISTOPHER",
+                "Surname": "KIM",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "433",
+                "USAD_SNM": "1ST",
+                "USAD_SFX": "AVENUE",
+                "USAD_CTY": "NEW YORK",
+                "USAD_STA": "NY",
+                "USAD_ZIP": "10010",
+                "USAD_ORG": "DEPARTMENT OF ENDODONTICS NEW YORK UNIVERSITY"
+            }
+        }
+    },
+    "WWW,ZWW,NDNF,W,TN,PWW,Q,": {
+        "12": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JENNIFER",
+                "Surname": "LEE",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "1115",
+                "USAD_SPR": "E",
+                "USAD_SNM": "58TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "CHICAGO",
+                "USAD_STA": "IL",
+                "USAD_ZIP": "60637",
+                "USAD_ORG": "DEPARTMENT OF LINGUISTICS UNIVERSITY OF CHICAGO"
+            }
+        },
+        "54": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "SAMUEL",
+                "Surname": "KIM",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "929",
+                "USAD_SPR": "E",
+                "USAD_SNM": "57TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "CHICAGO",
+                "USAD_STA": "IL",
+                "USAD_ZIP": "60637",
+                "USAD_ORG": "DEPARTMENT OF CHEMISTRY UNIVERSITY OF CHICAGO"
+            }
+        }
+    },
+    "WWW,WZ,NWWF,W,TN,PWW,W,": {
+        "13": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "RYAN",
+                "Surname": "CHEN",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "10",
+                "USAD_SNM": "BRYAN SEARLE",
+                "USAD_SFX": "DR",
+                "USAD_CTY": "DURHAM",
+                "USAD_STA": "NC",
+                "USAD_ZIP": "27710",
+                "USAD_ORG": "DEPARTMENT OF ONCOLOGY DUKE UNIVERSITY"
+            }
+        }
+    },
+    "WWW,ZWT,NDNF,W,TN,PWW,W,": {
+        "14": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JULIA",
+                "Surname": "PARK",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "240",
+                "USAD_SPR": "S",
+                "USAD_SNM": "40TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "PHILADELPHIA",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "19104",
+                "USAD_ORG": "DEPARTMENT OF PERIODONTICS UNIVERSITY OF PENNSYLVANIA"
+            }
+        },
+        "39": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "ANGELA",
+                "Surname": "LEE",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "240",
+                "USAD_SPR": "S",
+                "USAD_SNM": "40TH",
+                "USAD_SFX": "STREET",
+                "USAD_CTY": "PHILADELPHIA",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "19104",
+                "USAD_ORG": "DEPARTMENT OF ENDODONTICS UNIVERSITY OF PENNSYLVANIA"
+            }
+        },
+        "48": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "DAVID",
+                "Surname": "LEE",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "240",
+                "USAD_SPR": "S",
+                "USAD_SNM": "40TH",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "PHILADELPHIA",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "19104",
+                "USAD_ORG": "DEPARTMENT OF DENTISTRY UNIVERSITY OF PENNSYLVANIA"
+            }
+        }
+    },
+    "WWW,ZWTW,NWW,W,TN,PWW,Q,": {
+        "15": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "TIMOTHY",
+                "Surname": "LEE",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "366",
+                "USAD_SNM": "LECONTE",
+                "USAD_SFX": "HALL",
+                "USAD_CTY": "BERKELEY",
+                "USAD_STA": "CA",
+                "USAD_ZIP": "94720",
+                "USAD_ORG": "DEPARTMENT OF PHYSICS UNIVERSITY OF CALIFORNIA BERKELEY"
+            }
+        }
+    },
+    "WWW,ZWW,NWF,W,TN,PWW,W,": {
+        "16": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "EMILY",
+                "Surname": "KIM",
+                "Suffix Title": "MD"
+            },
+            "Address": {
+                "USAD_SNO": "200",
+                "USAD_SNM": "LOTHROP",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "PITTSBURGH",
+                "USAD_STA": "PA",
+                "USAD_ZIP": "15213",
+                "USAD_ORG": "DEPARTMENT OF NEUROSURGERY UNIVERSITY OF PITTSBURGH"
+            }
+        }
+    },
+    "WWW,ZWTW,NWFF,W,TN,PWW,W,": {
+        "17": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "MICHAEL",
+                "Surname": "CHEN",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "2300",
+                "USAD_SNM": "RED RIVER",
+                "USAD_SFX": "ST",
+                "USAD_CTY": "AUSTIN",
+                "USAD_STA": "TX",
+                "USAD_ZIP": "78712",
+                "USAD_ORG": "DEPARTMENT OF PROSTHODONTICS UNIVERSITY OF TEXAS AUSTIN"
+            }
+        }
+    },
+    "WWW,ZWW,NWF,W,TN,PWW,Q,": {
+        "18": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "KATHERINE",
+                "Surname": "LEE",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "1180",
+                "USAD_SNM": "OBSERVATORY",
+                "USAD_SFX": "DR",
+                "USAD_CTY": "MADISON",
+                "USAD_STA": "WI",
+                "USAD_ZIP": "53706",
+                "USAD_ORG": "DEPARTMENT OF SOCIOLOGY UNIVERSITY OF WISCONSIN-MADISON"
+            }
+        },
+        "42": {
+            "Name": {
+                "Prefix Title": "PROF",
+                "Given Name": "MATTHEW",
+                "Surname": "KIM",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "480",
+                "USAD_SNM": "LINCOLN",
+                "USAD_SFX": "DRIVE",
+                "USAD_CTY": "MADISON",
+                "USAD_STA": "WI",
+                "USAD_ZIP": "53706",
+                "USAD_ORG": "DEPARTMENT OF MATHEMATICS UNIVERSITY OF WISCONSIN-MADISON"
+            }
+        }
+    },
+    "WWWW,ZWT,NDZF,WW,TN,PWW,W,": {
+        "20": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "STEPHANIE",
+                "Surname": "CHANG",
+                "Suffix Title": "DDS"
+            },
+            "Address": {
+                "USAD_SNO": "1011",
+                "USAD_SPR": "N",
+                "USAD_SNM": "UNIVERSITY",
+                "USAD_SFX": "AVE",
+                "USAD_CTY": "ANN ARBOR",
+                "USAD_STA": "MI",
+                "USAD_ZIP": "48109",
+                "USAD_ORG": "DEPARTMENT OF PEDIATRIC DENTISTRY UNIVERSITY OF MICHIGAN"
+            }
+        }
+    },
+    "WWW,ZWT,NDWF,W,TN,PWW,Q,": {
+        "21": {
+            "Name": {
+                "Prefix Title": "DR",
+                "Given Name": "JONATHAN",
+                "Surname": "LEE",
+                "Suffix Title": "PHD"
+            },
+            "Address": {
+                "USAD_SNO": "1410",
+                "USAD_SPR": "NE",
+                "USAD_SNM": "CAMPUS",
+                "USAD_SFX": "PKWY",
+                "USAD_CTY": "SEATTLE",
+                "USAD_STA": "WA",
+                "USAD_ZIP": "98195",
+                "USAD_ORG": "DEPARTMENT OF MATHEMATICS UNIVERSITY OF WASHINGTON"
+            }
+        }
+    }
+}

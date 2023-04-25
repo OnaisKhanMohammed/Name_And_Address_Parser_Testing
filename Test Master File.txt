@@ -1,0 +1,3316 @@
+{
+	"classes": ["USAD_SNO", "USAD_SNM", "USAD_SFX", "USAD_CTY", "USAD_STA", "USAD_ZIP", "USAD_ANO", "USAD_ANM"],
+	"annotations": [
+		["43 State Ave ,New Albany, IN 47150\r", {
+			"entities": [
+				[0, 2, "USAD_SNO"],
+				[3, 8, "USAD_SNM"],
+				[9, 12, "USAD_SFX"],
+				[14, 24, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["815 Marvon St South Ozone Park, NY 11420\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 13, "USAD_SFX"],
+				[14, 30, "USAD_CTY"],
+				[32, 34, "USAD_STA"],
+				[35, 40, "USAD_ZIP"]
+			]
+		}],
+		["6678 University Avenue ,San Juan,PR 00926\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 15, "USAD_SNM"],
+				[16, 22, "USAD_SFX"],
+				[24, 32, "USAD_CTY"],
+				[33, 35, "USAD_STA"],
+				[36, 41, "USAD_ZIP"]
+			]
+		}],
+		["109 Markhan St , Corona, NY 11368\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 11, "USAD_SNM"],
+				[12, 14, "USAD_SFX"],
+				[17, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["81 Mccain Rd ,Chicago , IL 60629\r", {
+			"entities": [
+				[0, 2, "USAD_SNO"],
+				[3, 9, "USAD_SNM"],
+				[10, 12, "USAD_SFX"],
+				[14, 21, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["8190 Marsh Ave, The Villages, FL 32162\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 10, "USAD_SNM"],
+				[11, 14, "USAD_SFX"],
+				[16, 28, "USAD_CTY"],
+				[30, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["7966 Beacon St ,Sun Prairie, WI 53590\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 14, "USAD_SFX"],
+				[16, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["44 Sunbeam Avenue ,Pataskala, OH 43062\r", {
+			"entities": [
+				[0, 2, "USAD_SNO"],
+				[3, 10, "USAD_SNM"],
+				[11, 17, "USAD_SFX"],
+				[19, 28, "USAD_CTY"],
+				[30, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["151 Meadow Lane ,Toms River, NJ 08753\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 15, "USAD_SFX"],
+				[17, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["88 North Lockport ,Lockport , NY 14094\r", {
+			"entities": [
+				[0, 2, "USAD_SNO"],
+				[3, 8, "USAD_SNM"],
+				[9, 17, "USAD_SFX"],
+				[19, 27, "USAD_CTY"],
+				[30, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["4456 Markhan Ave , Franklin Square ,NY 11010\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 16, "USAD_SFX"],
+				[19, 34, "USAD_CTY"],
+				[36, 38, "USAD_STA"],
+				[39, 44, "USAD_ZIP"]
+			]
+		}],
+		["106 DOYERS ST , Los Angeles , CA 90011\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 13, "USAD_SFX"],
+				[16, 27, "USAD_CTY"],
+				[30, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["599 BAY BLVD ,Pacoima , CA 91331\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 7, "USAD_SNM"],
+				[8, 12, "USAD_SFX"],
+				[14, 21, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["72 ANDERSON PL , Ketchikan , AK 99950\r", {
+			"entities": [
+				[0, 2, "USAD_SNO"],
+				[3, 11, "USAD_SNM"],
+				[12, 14, "USAD_SFX"],
+				[17, 26, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["4459 Jefferson Street , Chesapeake , Virginia 23321\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 14, "USAD_SNM"],
+				[15, 21, "USAD_SFX"],
+				[24, 34, "USAD_CTY"],
+				[37, 45, "USAD_STA"],
+				[46, 51, "USAD_ZIP"]
+			]
+		}],
+		["2005 Conifer Drive , Tukwila, Washington 98168\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 18, "USAD_SFX"],
+				[21, 28, "USAD_CTY"],
+				[30, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["3864 Camel Back Road , Tulsa , Oklahoma 74145\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 15, "USAD_SNM"],
+				[16, 20, "USAD_SFX"],
+				[23, 28, "USAD_CTY"],
+				[31, 39, "USAD_STA"],
+				[40, 45, "USAD_ZIP"]
+			]
+		}],
+		["2169 Green Hill Road , Bentonville, Arkansas 72712\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 15, "USAD_SNM"],
+				[16, 20, "USAD_SFX"],
+				[23, 34, "USAD_CTY"],
+				[36, 44, "USAD_STA"],
+				[45, 50, "USAD_ZIP"]
+			]
+		}],
+		["245 Linden Avenue , Winter Park, Florida 32789\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 17, "USAD_SFX"],
+				[20, 31, "USAD_CTY"],
+				[33, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["4806 Tenmile, Los Angeles, California 90017\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[14, 25, "USAD_CTY"],
+				[27, 37, "USAD_STA"],
+				[38, 43, "USAD_ZIP"]
+			]
+		}],
+		["634 Willow Greene Drive,Montgomery,Alabama 36116\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 17, "USAD_SNM"],
+				[18, 23, "USAD_SFX"],
+				[24, 34, "USAD_CTY"],
+				[35, 42, "USAD_STA"],
+				[43, 48, "USAD_ZIP"]
+			]
+		}],
+		["3863 Berkshire Circle, Knoxville, Tennessee 37917\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 14, "USAD_SNM"],
+				[15, 21, "USAD_SFX"],
+				[23, 32, "USAD_CTY"],
+				[34, 43, "USAD_STA"],
+				[44, 49, "USAD_ZIP"]
+			]
+		}],
+		["3960 Hilltop Street,Colrain,Massachusetts 01340\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 19, "USAD_SFX"],
+				[20, 27, "USAD_CTY"],
+				[28, 41, "USAD_STA"],
+				[42, 47, "USAD_ZIP"]
+			]
+		}],
+		["4535 Oliverio Drive,Moundridge, Kansas 67107\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 13, "USAD_SNM"],
+				[14, 19, "USAD_SFX"],
+				[20, 30, "USAD_CTY"],
+				[32, 38, "USAD_STA"],
+				[39, 44, "USAD_ZIP"]
+			]
+		}],
+		["3006 Havanna Street,Greensboro, North Carolina 27401\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 19, "USAD_SFX"],
+				[20, 30, "USAD_CTY"],
+				[32, 46, "USAD_STA"],
+				[47, 52, "USAD_ZIP"]
+			]
+		}],
+		["3168 Oak Avenue,Cedar Knolls,New Jersey 07927\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 8, "USAD_SNM"],
+				[9, 15, "USAD_SFX"],
+				[16, 28, "USAD_CTY"],
+				[29, 39, "USAD_STA"],
+				[40, 45, "USAD_ZIP"]
+			]
+		}],
+		["951 Terra Street,Georgetown, Florida 32139\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 9, "USAD_SNM"],
+				[10, 16, "USAD_SFX"],
+				[17, 27, "USAD_CTY"],
+				[29, 36, "USAD_STA"],
+				[37, 42, "USAD_ZIP"]
+			]
+		}],
+		["1990 Richards Avenue,San Gabriel,California 91775\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 13, "USAD_SNM"],
+				[14, 20, "USAD_SFX"],
+				[21, 32, "USAD_CTY"],
+				[33, 43, "USAD_STA"],
+				[44, 49, "USAD_ZIP"]
+			]
+		}],
+		["4858 Stoneybrook Road, Orlando,Florida 32801\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 16, "USAD_SNM"],
+				[17, 21, "USAD_SFX"],
+				[23, 30, "USAD_CTY"],
+				[31, 38, "USAD_STA"],
+				[39, 44, "USAD_ZIP"]
+			]
+		}],
+		["963 Freedom Lane,Lodi,California 95240\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 11, "USAD_SNM"],
+				[12, 16, "USAD_SFX"],
+				[17, 21, "USAD_CTY"],
+				[22, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["3662 Bicetown Road,Corona, New York 11368\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 13, "USAD_SNM"],
+				[14, 18, "USAD_SFX"],
+				[19, 25, "USAD_CTY"],
+				[27, 35, "USAD_STA"],
+				[36, 41, "USAD_ZIP"]
+			]
+		}],
+		["4325 Hidden Meadow Drive,CAMP HILL,Pennsylvania 17012\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 18, "USAD_SNM"],
+				[19, 24, "USAD_SFX"],
+				[25, 34, "USAD_CTY"],
+				[35, 47, "USAD_STA"],
+				[48, 53, "USAD_ZIP"]
+			]
+		}],
+		["2588 Armbrester Drive,Gardena,California 90248\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 15, "USAD_SNM"],
+				[16, 21, "USAD_SFX"],
+				[22, 29, "USAD_CTY"],
+				[30, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["1980 Alexander Drive,Truscott, Texas 79260\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 14, "USAD_SNM"],
+				[15, 20, "USAD_SFX"],
+				[21, 29, "USAD_CTY"],
+				[31, 36, "USAD_STA"],
+				[37, 42, "USAD_ZIP"]
+			]
+		}],
+		["2738 Patterson Street,Houston, Texas 77092\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 14, "USAD_SNM"],
+				[15, 21, "USAD_SFX"],
+				[22, 29, "USAD_CTY"],
+				[31, 36, "USAD_STA"],
+				[37, 42, "USAD_ZIP"]
+			]
+		}],
+		["1778 Snyder Avenue,Charlotte, North Carolina 28202\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 18, "USAD_SFX"],
+				[19, 28, "USAD_CTY"],
+				[30, 44, "USAD_STA"],
+				[45, 50, "USAD_ZIP"]
+			]
+		}],
+		["4096 Hillcrest Drive,Tukwila, Washington 98168\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 14, "USAD_SNM"],
+				[15, 20, "USAD_SFX"],
+				[21, 28, "USAD_CTY"],
+				[30, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["2453 Walnut Drive,Dahlen, North Dakota 58224\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 17, "USAD_SFX"],
+				[18, 24, "USAD_CTY"],
+				[26, 38, "USAD_STA"],
+				[39, 44, "USAD_ZIP"]
+			]
+		}],
+		["2026 Lowland Drive,Beloit, Illinois 53511\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 18, "USAD_SFX"],
+				[19, 25, "USAD_CTY"],
+				[27, 35, "USAD_STA"],
+				[36, 41, "USAD_ZIP"]
+			]
+		}],
+		["693 Jerry Dove Drive,Beaufort, South Carolina 29902\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 14, "USAD_SNM"],
+				[15, 20, "USAD_SFX"],
+				[21, 29, "USAD_CTY"],
+				[31, 45, "USAD_STA"],
+				[46, 51, "USAD_ZIP"]
+			]
+		}],
+		["396 Nickel Road,Alhambra,California 91801\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 15, "USAD_SFX"],
+				[16, 24, "USAD_CTY"],
+				[25, 35, "USAD_STA"],
+				[36, 41, "USAD_ZIP"]
+			]
+		}],
+		["2388 Kuhl Avenue,Atlanta,Georgia 30303\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 9, "USAD_SNM"],
+				[10, 16, "USAD_SFX"],
+				[17, 24, "USAD_CTY"],
+				[25, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["254 Midway Road,Boles,Arkansas 72926\r", {
+			"entities": [
+				[0, 3, "USAD_SNO"],
+				[4, 10, "USAD_SNM"],
+				[11, 15, "USAD_SFX"],
+				[16, 21, "USAD_CTY"],
+				[22, 30, "USAD_STA"],
+				[31, 36, "USAD_ZIP"]
+			]
+		}],
+		["1310 Breezewood Court,Arma,Kansas 66712\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 15, "USAD_SNM"],
+				[16, 21, "USAD_SFX"],
+				[22, 26, "USAD_CTY"],
+				[27, 33, "USAD_STA"],
+				[34, 39, "USAD_ZIP"]
+			]
+		}],
+		["3551 Rubaiyat Road,Grand Rapids,Michigan 49503\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 13, "USAD_SNM"],
+				[14, 18, "USAD_SFX"],
+				[19, 31, "USAD_CTY"],
+				[32, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["1405 Spring Avenue,Fort Washington,Pennsylvania 19034\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 18, "USAD_SFX"],
+				[19, 34, "USAD_CTY"],
+				[35, 47, "USAD_STA"],
+				[48, 53, "USAD_ZIP"]
+			]
+		}],
+		["4705 Preston Street,Plainfield,Illinois 60586\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 19, "USAD_SFX"],
+				[20, 30, "USAD_CTY"],
+				[31, 39, "USAD_STA"],
+				[40, 45, "USAD_ZIP"]
+			]
+		}],
+		["1977 Laurel Lee,Minneapolis,Minnesota 55415\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 15, "USAD_SFX"],
+				[16, 27, "USAD_CTY"],
+				[28, 37, "USAD_STA"],
+				[38, 43, "USAD_ZIP"]
+			]
+		}],
+		["1254 Rodney Street,Chesterfield,Missouri 63005\r", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 11, "USAD_SNM"],
+				[12, 18, "USAD_SFX"],
+				[19, 31, "USAD_CTY"],
+				[32, 40, "USAD_STA"],
+				[41, 46, "USAD_ZIP"]
+			]
+		}],
+		["3759 Collins Street,Tampa,Florida 33619", {
+			"entities": [
+				[0, 4, "USAD_SNO"],
+				[5, 12, "USAD_SNM"],
+				[13, 19, "USAD_SFX"],
+				[20, 25, "USAD_CTY"],
+				[26, 33, "USAD_STA"],
+				[34, 39, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1599 Woonsocket RI 02895\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1232 Millville NJ 08332\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 4211 Enterprise CT 36330\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1212 Hollywood FL 33020\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1065 Lullaby CA 92880\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 2595 Dalzell SC 29040\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 425 Frankfort KY 40601\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 2304 Waukegan IL 60087\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1912 Mitchell SD 57301\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 4599 Mount Pleasant SC 29464\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 26, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 129 Arlington MA 02476\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 269 Lake City FL 32055\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["Po Box 70 Honesdale PA 18431\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 9, "USAD_BNO"],
+				[10, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 9561 Tualatin OR 97062\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 4521 Enterprise AL 36330\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 30292 Roseville MI 48066\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1211 Oxford MS 38655\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 30292 Roseville VA 23185\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 102 Troy NY 12180\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 15, "USAD_CTY"],
+				[16, 18, "USAD_STA"],
+				[19, 24, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 8547 Nashville TN 37205\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 968 Elyria OH 44035\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 17, "USAD_CTY"],
+				[18, 20, "USAD_STA"],
+				[21, 26, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 98 Lovington NM 88260\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 9, "USAD_BNO"],
+				[10, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 1204 Mchenry IL 60050\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 809 Owatonna MN 55060\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 2017 Henrico VA 23228\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["PO BOX 634 Grafton WV 26354\r", {
+			"entities": [
+				[0, 6, "USAD_BNM"],
+				[7, 10, "USAD_BNO"],
+				[11, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 15 BOX 36 Austin PA 16720\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 22 BOX 71 McGregor IA 52157\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 2 BOX 22 Lawton IA 51030\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 12 BOX 19 Topmost KY 41862\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["RR 15 BOX 73 Capron IL 61012\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 16 BOX 90 Sarcoxie MO 64862\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 4 BOX 98 Marmaduke AR 72443\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 5 BOX 10 Putney KY 40865\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 11 BOX 76 Rosedale IN 47874\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 6 BOX 45 Stuart VA 24171\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 3 BOX 27 Sibley LA 71073\r", {
+			"entities": [
+				[0, 2, "USAD_ZIP"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 1 BOX 69 Larned KS 67550\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 4 BOX 72 Grafton ND 58237\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 2 BOX 16 Mulino OR 97042\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 18, "USAD_CTY"],
+				[19, 27, "USAD_STA"]
+			]
+		}],
+		["RR 5 BOX 42 Moulton IA 52572\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 8 BOX 70 Cascade WI 53011\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 9 BOX 84 Homer MI 49245\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 4, "USAD_RNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 11, "USAD_BNO"],
+				[12, 17, "USAD_CTY"],
+				[18, 20, "USAD_STA"],
+				[21, 26, "USAD_ZIP"]
+			]
+		}],
+		["RR 11 BOX 44 Burnside KY 42519\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_CTY"]
+			]
+		}],
+		["RR 12 BOX 25 Fairfield WA 99012\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 13 BOX 61 Atwood KS 67730\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_CTY"],
+				[23, 28, "USAD_CTY"]
+			]
+		}],
+		["RR 14 BOX 94 Greencastle IN 46135\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 24, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["RR 15 BOX 38 Kirbyville TX 75956\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["RR 17 BOX 86 Bonesteel SD 57317\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 18 BOX 52 Chewelah WA 99109\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 20 BOX 10 Rutledge TN 37861\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 21 BOX 77 Roscommon MI 48653\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 23 BOX 32 Sherwood OR 97140\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 24 BOX 67 Colfax WI 54730\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 25 BOX 99 Alice TX 78332\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 18, "USAD_CTY"],
+				[19, 21, "USAD_STA"],
+				[22, 27, "USAD_ZIP"]
+			]
+		}],
+		["RR 27 BOX 46 Vanceboro ME 04491\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 28 BOX 80 Tipton IN 46072\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 30 BOX 47 Cherokee TX 76832\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 31 BOX 73 Easton MN 56025\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 33 BOX 68 Mattituck NY 11952\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 35 BOX 17 Ellsworth KS 67439\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 37 BOX 55 Knoxville PA 16928\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 39 BOX 87 Pueblo CO 81001\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 40 BOX 31 Laconia NH 03246\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["RR 42 BOX 64 Williston VT 05495\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 44 BOX 99 Canmer KY 42722\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["RR 45 BOX 22 Beaverville IL 60912\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 24, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["RR 47 BOX 47 South Colton NY 13687\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 25, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["RR 49 BOX 82 Minneota MN 56264\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["RR 50 BOX 13 Putnamville IN 46170\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 24, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["RR 52 BOX 88 Koshkonong MO 65692\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["RR 54 BOX 30 Chaparral NM 88081\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 56 BOX 66 Bluefield WV 24701\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["RR 57 BOX 91 Mound Valley KS 67354\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 25, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["RR 59 BOX 45 Harwich MA 02645\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["RR 61 BOX 98 Washburn WI 54891\r", {
+			"entities": [
+				[0, 2, "USAD_RNM"],
+				[3, 5, "USAD_RNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09427\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AP 96377\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09539\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AE 09631\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AP 96373\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AA 34002\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09096\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AP 96517\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09208\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AE 09861\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09428\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AP 96251\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09287\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AE 09826\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AP 96548\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09116\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09609\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AP 96373\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09516\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09377\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AP 96206\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["FPO AE 09844\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AA 09434\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+		["APO AE 09680\r", {
+			"entities": [
+				[0, 3, "USAD_MDG"],
+				[4, 6, "USAD_MGN"],
+				[7, 12, "USAD_ZIP"]
+			]
+		}],
+	
+
+		["HC 68 BOX 23 Chicago, IL 44432\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 32 BOX 12 Raeford, NC 28376\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 02 BOX 45 Sterling Heights, MI 48310\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 29, "USAD_CTY"],
+				[31, 33, "USAD_STA"],
+				[34, 39, "USAD_ZIP"]
+			]
+		}],
+		["HC 94 BOX 41 Buffalo Grove, IL 60089\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 26, "USAD_CTY"],
+				[28, 30, "USAD_STA"],
+				[31, 36, "USAD_ZIP"]
+			]
+		}],
+		["HC 81 BOX 32 Lancaster, NY 14086\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["HC 22 BOX 12 Baton Rouge, LA 70806\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 24, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["HC 5323 BOX 25 Feasterville Trevose, PA 19053\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 14, "USAD_BNO"],
+				[15, 35, "USAD_CTY"],
+				[37, 39, "USAD_STA"],
+				[40, 45, "USAD_ZIP"]
+			]
+		}],
+		["HC 91 BOX 54 Blacksburg, VA 24060\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 55 BOX 83 Nazareth, PA 18064\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["HC 13 BOX 56 Hoboken, NJ 07030\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 2342 BOX 5 Lewis Center, OH 43035\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 13, "USAD_BNO"],
+				[14, 26, "USAD_CTY"],
+				[28, 30, "USAD_STA"],
+				[31, 36, "USAD_ZIP"]
+			]
+		}],
+		["HC 4013 BOX 4 Wanette, Oklahoma, 74878\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 13, "USAD_BNO"],
+				[14, 21, "USAD_CTY"],
+				[23, 31, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["Hc 432 BOX 410 Cecil, Ohio, 45821\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 20, "USAD_CTY"],
+				[22, 26, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 002 BOX 11 South Bend, IN 46614\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 24, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["HC 9900 BOX 9 Fort Worth, TX 76110\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 13, "USAD_BNO"],
+				[14, 24, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["HC 103 BOX 001 Titusville, FL 32780\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["HC 44W BOX 840 Pembroke Pines, FL 33028\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 29, "USAD_CTY"],
+				[31, 33, "USAD_STA"],
+				[34, 39, "USAD_ZIP"]
+			]
+		}],
+		["HC 84K BOX 0 Ambler, PA 19002\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["HC 665N BOX 3 Freeport, NY 11520\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 13, "USAD_BNO"],
+				[14, 22, "USAD_BNO"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["HC 09 BOX 31 East Haven, CT 06512\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 45 BOX 8 Aliquippa, PA 15001\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 11, "USAD_BNO"],
+				[12, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["HC 88 BOX 9O Cranston, RI 02920\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["HC 023 BOX 3 Madison Heights, MI 48071\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 12, "USAD_BNO"],
+				[13, 28, "USAD_CTY"],
+				[30, 32, "USAD_STA"],
+				[33, 38, "USAD_ZIP"]
+			]
+		}],
+		["HC 83 BOX 77 Nottingham, MD 21236\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_BNO"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 21 BOX 48 Westford, MA 01886\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["Hc 98 Box 323 Winston Salem, NC 27103\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_HNO"],
+				[10, 13, "USAD_BNO"],
+				[14, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["hc 02 box 34 Oxon Hill, MD 20745\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["hC 573 BOx 2 Round Lake, IL 60073\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 42 bOX 64 Milledgeville, GA 31061\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 26, "USAD_CTY"],
+				[28, 30, "USAD_STA"],
+				[31, 36, "USAD_ZIP"]
+			]
+		}],
+		["hC 24 BOX 543 Davison, MI 48423\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["hc 981 BOX 21 Pearl, MS 39208\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 19, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["HC 83422 Box 028 Waynesboro, PA 17268\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 8, "USAD_HNO"],
+				[9, 12, "USAD_BNM"],
+				[13, 16, "USAD_BNO"],
+				[17, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["hc 72 box 4324 Waynesboro, PA 17268\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 14, "USAD_BNO"],
+				[15, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["HC 27 bOX 321 Lithonia, GA 30038\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["HC 878 BOX 44 Elizabethtown, PA 17022\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["HC 902 box Waterford, MI 48329\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["Hc 787 box 2 Henderson, KY 42420\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["HC 3 box 3 Coram, NY 11727\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 4, "USAD_HNO"],
+				[5, 8, "USAD_BNM"],
+				[9, 10, "USAD_BNO"],
+				[11, 16, "USAD_CTY"],
+				[18, 20, "USAD_STA"],
+				[21, 26, "USAD_ZIP"]
+			]
+		}],
+		["HC 21 box 39 Henrico, VA 23228\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 37 box 6 Stow, OH 44224\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 11, "USAD_BNO"],
+				[12, 16, "USAD_CTY"],
+				[18, 20, "USAD_STA"],
+				[21, 26, "USAD_ZIP"]
+			]
+		}],
+		["HC 6224 BOX 883 Carmel, NY 10512\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 7, "USAD_HNO"],
+				[8, 11, "USAD_BNM"],
+				[12, 15, "USAD_BNO"],
+				[16, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["hc 42 BOX 86 Fairfax, VA 22030\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 72 BOX 012 Hopewell, VA 2386\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 31, "USAD_ZIP"]
+			]
+		}],
+		["Hc 82 BOX 92 Wilmington, MA 01887\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 23 BOX 32 Crofton, MD 21114\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["hC 97 Box 765 Bluffton, SC 29910\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["HC 90 box 2 Southfield, MI 48076\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 11, "USAD_BNO"],
+				[12, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["Hc 32 BOx 53 Waukesha, WI 53186\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["hc 80w box 23 Downingtown, PA 19335\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["HC 74 BOX 87 Warren, MI 48089\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 19, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["hC 32 BOX 72 Utica, NY 13501\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 18, "USAD_CTY"],
+				[20, 22, "USAD_STA"],
+				[23, 28, "USAD_ZIP"]
+			]
+		}],
+		["Hc 291 BOX 32 Coram, NY 11727\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 19, "USAD_CTY"],
+				[21, 23, "USAD_STA"],
+				[24, 29, "USAD_ZIP"]
+			]
+		}],
+		["HC 292 BOx 23 Bay Shore, NY 11706\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["hc 706 BOX 11 Point Pleasant Beach, NJ 08742\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 34, "USAD_CTY"],
+				[36, 38, "USAD_CTY"],
+				[39, 44, "USAD_ZIP"]
+			]
+		}],
+		["HC 12 BOX 13 Chatsworth, GA 30705\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["HC 70 BOX 10 Ballston Spa, NY 12020\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["Hc 89 box 201 Nanuet, NY 10954\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 954 BOX 9 Valley Stream, NY 11580\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 12, "USAD_BNO"],
+				[13, 26, "USAD_CTY"],
+				[28, 30, "USAD_STA"],
+				[31, 36, "USAD_ZIP"]
+			]
+		}],
+		["hc 580 box 706 Libertyville, IL 60048\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["HC 89 box 98 Tuckerton, NJ 08087\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		["hC 087 BOX 82 Copperas Cove, TX 76522\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["HC 522 Box 522 Graham, NC 27253\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 21, "USAD_CTY"],
+				[23, 25, "USAD_STA"],
+				[26, 31, "USAD_ZIP"]
+			]
+		}],
+		["Hc 253 BOx 253 North Bergen, NJ 07047\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 27, "USAD_CTY"],
+				[29, 31, "USAD_STA"],
+				[32, 37, "USAD_ZIP"]
+			]
+		}],
+		["Hc 047 box 42l Lacey, WA 98503\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["hc 503 BOX 98 Groton, CT 06340\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 20, "USAD_CTY"],
+				[22, 24, "USAD_STA"],
+				[25, 30, "USAD_ZIP"]
+			]
+		}],
+		["HC 340 BOX 06 Logansport, IN 46947\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 24, "USAD_CTY"],
+				[26, 28, "USAD_STA"],
+				[29, 34, "USAD_ZIP"]
+			]
+		}],
+		["HC 947 BOX 46 Glastonbury, CT 06033\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 13, "USAD_BNO"],
+				[14, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["hc 033 box 228 San Angelo, TX 76901\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 6, "USAD_HNO"],
+				[7, 10, "USAD_BNM"],
+				[11, 14, "USAD_BNO"],
+				[15, 25, "USAD_CTY"],
+				[27, 29, "USAD_STA"],
+				[30, 35, "USAD_ZIP"]
+			]
+		}],
+		["HC 76 BOX 29 Hinesville, GA 31313\r", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 12, "USAD_BNO"],
+				[13, 23, "USAD_CTY"],
+				[25, 27, "USAD_STA"],
+				[28, 33, "USAD_ZIP"]
+			]
+		}],
+		["hc 31 box 901 Billings, MT 59101", {
+			"entities": [
+				[0, 2, "USAD_HNM"],
+				[3, 5, "USAD_HNO"],
+				[6, 9, "USAD_BNM"],
+				[10, 13, "USAD_BNO"],
+				[14, 22, "USAD_CTY"],
+				[24, 26, "USAD_STA"],
+				[27, 32, "USAD_ZIP"]
+			]
+		}],
+		
+		["Yale University Department of Psychology Harkness Hall, Suite 300, New Haven, CT 06520-8205\r", {
+	"entities": [
+		[0, 54, "USAD_ORG"],
+		[56, 61, "USAD_ANM"],
+		[62, 65, "USAD_ANO"],
+		[67, 76, "USAD_CTY"],
+		[78, 80, "USAD_STA"],
+		[81, 91, "USAD_ZIP"]
+	]
+}], ["University of California Los Angeles Anderson School of Management, 110 Westwood Plaza, Suite B402, Los Angeles, CA 90095-1481\r", {
+	"entities": [
+		[0, 66, "USAD_ORG"],
+		[68, 71, "USAD_SNO"],
+		[72, 80, "USAD_SNM"],
+		[81, 86, "USAD_SFX"],
+		[88, 93, "USAD_ANM"],
+		[94, 98, "USAD_ANO"],
+		[100, 111, "USAD_CTY"],
+		[113, 115, "USAD_STA"],
+		[116, 126, "USAD_ZIP"]
+	]
+}], ["Harvard University Department of Physics Jefferson Physical Laboratory, Room 455, Cambridge, MA 02138-2019\r", {
+	"entities": [
+		[0, 70, "USAD_ORG"],
+		[72, 76, "USAD_ANM"],
+		[77, 80, "USAD_ANO"],
+		[82, 91, "USAD_CTY"],
+		[93, 95, "USAD_STA"],
+		[96, 106, "USAD_ZIP"]
+	]
+}], ["Stanford University Graduate School of Business Knight Management Center, 655 Knight Way, Suite 245, Stanford, CA 94305-7298\r", {
+	"entities": [
+		[0, 72, "USAD_ORG"],
+		[74, 77, "USAD_SNO"],
+		[78, 84, "USAD_SNM"],
+		[85, 88, "USAD_SFX"],
+		[90, 95, "USAD_ANM"],
+		[96, 99, "USAD_ANO"],
+		[101, 109, "USAD_CTY"],
+		[111, 113, "USAD_STA"],
+		[114, 124, "USAD_ZIP"]
+	]
+}], ["University of California Merced School of Engineering Science and Engineering Building 2, Room 264, 5200 North Lake Road, Merced, CA 95343-5603\r", {
+	"entities": [
+		[0, 88, "USAD_ORG"],
+		[90, 94, "USAD_ANM"],
+		[95, 98, "USAD_ANO"],
+		[100, 104, "USAD_SNO"],
+		[105, 110, "USAD_SPR"],
+		[111, 115, "USAD_SNM"],
+		[116, 120, "USAD_SFX"],
+		[122, 128, "USAD_CTY"],
+		[130, 132, "USAD_STA"],
+		[133, 143, "USAD_ZIP"]
+	]
+}], ["Columbia University Department of Economics International Affairs Building, Room 834, 420 West 118th Street, New York, NY 10027-7297\r", {
+	"entities": [
+		[0, 74, "USAD_ORG"],
+		[76, 80, "USAD_ANM"],
+		[81, 84, "USAD_ANO"],
+		[86, 89, "USAD_SNO"],
+		[90, 94, "USAD_SPR"],
+		[95, 100, "USAD_SNM"],
+		[101, 107, "USAD_SFX"],
+		[109, 117, "USAD_CTY"],
+		[119, 121, "USAD_STA"],
+		[122, 132, "USAD_ZIP"]
+	]
+}], ["University of Pennsylvania Wharton School Jon M Huntsman Hall, 3730 Walnut Street, Suite 500, Philadelphia, PA 19104-6340\r", {
+	"entities": [
+		[0, 61, "USAD_ORG"],
+		[63, 67, "USAD_SNO"],
+		[68, 74, "USAD_SNM"],
+		[75, 81, "USAD_SFX"],
+		[83, 88, "USAD_ANM"],
+		[89, 92, "USAD_ANO"],
+		[94, 106, "USAD_CTY"],
+		[108, 110, "USAD_STA"],
+		[111, 121, "USAD_ZIP"]
+	]
+}], ["California Institute of Technology Division of Engineering and Applied Science, 1200 East California Boulevard, Room 301, Pasadena, CA 91125-3200\r", {
+	"entities": [
+		[0, 78, "USAD_ORG"],
+		[80, 84, "USAD_SNO"],
+		[85, 89, "USAD_SPR"],
+		[90, 100, "USAD_SNM"],
+		[101, 110, "USAD_SFX"],
+		[112, 116, "USAD_ANM"],
+		[117, 120, "USAD_ANO"],
+		[122, 130, "USAD_CTY"],
+		[132, 134, "USAD_STA"],
+		[135, 145, "USAD_ZIP"]
+	]
+}], ["University of Michigan Department of Computer Science and Engineering Beyster Building, Room 3750, 2260 Hayward Street, Ann Arbor, MI 48109-2121\r", {
+	"entities": [
+		[0, 86, "USAD_ORG"],
+		[88, 92, "USAD_ANM"],
+		[93, 97, "USAD_ANO"],
+		[99, 103, "USAD_SNO"],
+		[104, 111, "USAD_SNM"],
+		[112, 118, "USAD_SFX"],
+		[120, 129, "USAD_CTY"],
+		[131, 133, "USAD_STA"],
+		[134, 144, "USAD_ZIP"]
+	]
+}], ["Brown University Department of Biology and Medicine Sidney Frank Hall, Room 220, 185 Meeting Street, Providence, RI 02912-0108\r", {
+	"entities": [
+		[0, 69, "USAD_ORG"],
+		[71, 75, "USAD_ANM"],
+		[76, 79, "USAD_ANO"],
+		[81, 84, "USAD_SNO"],
+		[85, 92, "USAD_SNM"],
+		[93, 99, "USAD_SFX"],
+		[101, 111, "USAD_CTY"],
+		[113, 115, "USAD_STA"],
+		[116, 126, "USAD_ZIP"]
+	]
+}], ["University of Virginia Darden School of Business, 100 Darden Boulevard, Charlottesville, VA 22903-5268\r", {
+	"entities": [
+		[0, 48, "USAD_ORG"],
+		[50, 53, "USAD_SNO"],
+		[54, 60, "USAD_SNM"],
+		[61, 70, "USAD_SFX"],
+		[72, 87, "USAD_CTY"],
+		[89, 91, "USAD_STA"],
+		[92, 102, "USAD_ZIP"]
+	]
+}], ["Duke University Department of Political Science Gross Hall, Room 200, 140 Science Drive, Durham, NC 27708-0208\r", {
+	"entities": [
+		[0, 58, "USAD_ORG"],
+		[60, 64, "USAD_ANM"],
+		[65, 68, "USAD_ANO"],
+		[70, 73, "USAD_SNO"],
+		[74, 81, "USAD_SNM"],
+		[82, 87, "USAD_SFX"],
+		[89, 95, "USAD_CTY"],
+		[97, 99, "USAD_STA"],
+		[100, 110, "USAD_ZIP"]
+	]
+}], ["Northwestern University Kellogg School of Management Global Hub, 2211 Campus Drive, Room 4235, Evanston, IL 60208-2800\r", {
+	"entities": [
+		[0, 63, "USAD_ORG"],
+		[65, 69, "USAD_SNO"],
+		[70, 76, "USAD_SNM"],
+		[77, 82, "USAD_SFX"],
+		[84, 88, "USAD_ANM"],
+		[89, 93, "USAD_ANO"],
+		[95, 103, "USAD_CTY"],
+		[105, 107, "USAD_STA"],
+		[108, 118, "USAD_ZIP"]
+	]
+}], ["University of Texas at Austin Department of Chemical Engineering CPE Building, Room 5208, 200 E Dean Keeton St, Austin, TX 78712-1589\r", {
+	"entities": [
+		[0, 77, "USAD_ORG"],
+		[79, 83, "USAD_ANM"],
+		[84, 88, "USAD_ANO"],
+		[90, 93, "USAD_SNO"],
+		[94, 95, "USAD_SPR"],
+		[96, 107, "USAD_SNM"],
+		[108, 110, "USAD_SFX"],
+		[112, 118, "USAD_CTY"],
+		[120, 122, "USAD_STA"],
+		[123, 133, "USAD_ZIP"]
+	]
+}], ["University of California San Diego Department of Cognitive Science McGill Hall, Room 3340, 9500 Gilman Drive, La Jolla, CA 92093-0515\r", {
+	"entities": [
+		[0, 78, "USAD_ORG"],
+		[80, 84, "USAD_ANM"],
+		[85, 89, "USAD_ANO"],
+		[91, 95, "USAD_SNO"],
+		[96, 102, "USAD_SNM"],
+		[103, 108, "USAD_SFX"],
+		[110, 118, "USAD_CTY"],
+		[120, 122, "USAD_STA"],
+		[123, 133, "USAD_ZIP"]
+	]
+}], ["University of Chicago Booth School of Business Harper Center, 5807 South Woodlawn Avenue, Suite 204, Chicago, IL 60637-1610\r", {
+	"entities": [
+		[0, 60, "USAD_ORG"],
+		[62, 66, "USAD_SNO"],
+		[67, 72, "USAD_SPR"],
+		[73, 81, "USAD_SNM"],
+		[82, 88, "USAD_SFX"],
+		[90, 95, "USAD_ANM"],
+		[96, 99, "USAD_ANO"],
+		[101, 108, "USAD_CTY"],
+		[110, 112, "USAD_STA"],
+		[113, 123, "USAD_ZIP"]
+	]
+}], ["Princeton University Department of Chemistry Frick Laboratory, Room B322, Princeton, NJ 08544-1009\r", {
+	"entities": [
+		[0, 61, "USAD_ORG"],
+		[63, 67, "USAD_ANM"],
+		[68, 72, "USAD_ANO"],
+		[74, 83, "USAD_CTY"],
+		[85, 87, "USAD_STA"],
+		[88, 98, "USAD_ZIP"]
+	]
+}], ["Cornell University Johnson Graduate School of Management Sage Hall, Room 222, 114 East Avenue, Ithaca, NY 14853-6201\r", {
+	"entities": [
+		[0, 66, "USAD_ORG"],
+		[68, 72, "USAD_ANM"],
+		[73, 76, "USAD_ANO"],
+		[78, 81, "USAD_SNO"],
+		[82, 86, "USAD_SPR"],
+		[87, 93, "USAD_SFX"],
+		[95, 101, "USAD_CTY"],
+		[103, 105, "USAD_STA"],
+		[106, 116, "USAD_ZIP"]
+	]
+}], ["University of California Berkeley Department of History, 3229 Dwinelle Hall, Berkeley, CA 94720-2550\r", {
+	"entities": [
+		[0, 55, "USAD_ORG"],
+		[57, 61, "USAD_SNO"],
+		[62, 70, "USAD_SNM"],
+		[71, 75, "USAD_SFX"],
+		[77, 85, "USAD_CTY"],
+		[87, 89, "USAD_STA"],
+		[90, 100, "USAD_ZIP"]
+	]
+}], ["University of Missouri Department of Chemistry Chemistry Building, Room 325, 601 South College Avenue, Columbia, MO 65211-7600\r", {
+	"entities": [
+		[0, 65, "USAD_ORG"],
+		[67, 71, "USAD_ANM"],
+		[72, 75, "USAD_ANO"],
+		[77, 80, "USAD_SNO"],
+		[81, 86, "USAD_SPR"],
+		[87, 94, "USAD_SNM"],
+		[95, 101, "USAD_SFX"],
+		[103, 111, "USAD_CTY"],
+		[113, 115, "USAD_STA"],
+		[116, 126, "USAD_ZIP"]
+	]
+}], ["Georgia Institute of Technology School of Mechanical Engineering George W Woodruff School of Mechanical Engineering, Room 200, 801 Ferst Drive NW, Atlanta, GA 30332-0405\r", {
+	"entities": [
+		[0, 115, "USAD_ORG"],
+		[117, 121, "USAD_ANM"],
+		[122, 125, "USAD_ANO"],
+		[127, 130, "USAD_SNO"],
+		[131, 136, "USAD_SNM"],
+		[137, 142, "USAD_SFX"],
+		[143, 145, "USAD_SPR"],
+		[147, 154, "USAD_CTY"],
+		[156, 158, "USAD_STA"],
+		[159, 169, "USAD_ZIP"]
+	]
+}], ["University of California Irvine Department of Mathematics Rowland Hall, Room 621, 501 East Peltason Drive, Irvine, CA 92697-3875\r", {
+	"entities": [
+		[0, 70, "USAD_ORG"],
+		[72, 76, "USAD_ANM"],
+		[77, 80, "USAD_ANO"],
+		[82, 85, "USAD_SNO"],
+		[86, 90, "USAD_SPR"],
+		[91, 99, "USAD_SNM"],
+		[100, 105, "USAD_SFX"],
+		[107, 113, "USAD_CTY"],
+		[115, 117, "USAD_STA"],
+		[118, 128, "USAD_ZIP"]
+	]
+}], ["University of Wisconsin-Madison Department of Chemistry, 1101 University Avenue, Room 7417, Madison, WI 53706-1396\r", {
+	"entities": [
+		[0, 55, "USAD_ORG"],
+		[57, 61, "USAD_SNO"],
+		[62, 72, "USAD_SNM"],
+		[73, 79, "USAD_SFX"],
+		[81, 85, "USAD_ANM"],
+		[86, 90, "USAD_ANO"],
+		[92, 99, "USAD_CTY"],
+		[101, 103, "USAD_STA"],
+		[104, 114, "USAD_ZIP"]
+	]
+}], ["University of Southern California Gould School of Law, 699 Exposition Boulevard, Los Angeles, CA 90089-0071\r", {
+	"entities": [
+		[0, 53, "USAD_ORG"],
+		[55, 58, "USAD_SNO"],
+		[59, 69, "USAD_SNM"],
+		[70, 79, "USAD_SFX"],
+		[81, 92, "USAD_CTY"],
+		[94, 96, "USAD_STA"],
+		[97, 107, "USAD_ZIP"]
+	]
+}], ["University of Illinois at Urbana-Champaign Department of Civil and Environmental Engineering Newmark Civil Engineering Laboratory, Room 2110, 205 North Mathews Avenue, Urbana, IL 61801-2352\r", {
+	"entities": [
+		[0, 129, "USAD_ORG"],
+		[131, 135, "USAD_ANM"],
+		[136, 140, "USAD_ANO"],
+		[142, 145, "USAD_SNO"],
+		[146, 151, "USAD_SPR"],
+		[152, 159, "USAD_SNM"],
+		[160, 166, "USAD_SFX"],
+		[168, 174, "USAD_CTY"],
+		[176, 178, "USAD_STA"],
+		[179, 189, "USAD_ZIP"]
+	]
+}], ["University of Maryland College of Computer Mathematical and Natural Sciences Chemistry Building, Room 2240, College Park, MD 20742-2021\r", {
+	"entities": [
+		[0, 95, "USAD_ORG"],
+		[97, 101, "USAD_ANM"],
+		[102, 106, "USAD_ANO"],
+		[108, 120, "USAD_CTY"],
+		[122, 124, "USAD_STA"],
+		[125, 135, "USAD_ZIP"]
+	]
+}], ["University of Minnesota Twin Cities College of Biological Sciences Snyder Hall, Room 140, 1475 Gortner Avenue, Saint Paul, MN 55108-1095\r", {
+	"entities": [
+		[0, 78, "USAD_ORG"],
+		[80, 84, "USAD_ANM"],
+		[85, 88, "USAD_ANO"],
+		[90, 94, "USAD_SNO"],
+		[95, 102, "USAD_SNM"],
+		[103, 109, "USAD_SFX"],
+		[111, 121, "USAD_CTY"],
+		[123, 125, "USAD_STA"],
+		[126, 136, "USAD_ZIP"]
+	]
+}], ["University of Washington Department of Psychology Guthrie Hall, Room 222, Seattle, WA 98195-1525\r", {
+	"entities": [
+		[0, 62, "USAD_ORG"],
+		[64, 68, "USAD_ANM"],
+		[69, 72, "USAD_ANO"],
+		[74, 81, "USAD_CTY"],
+		[83, 85, "USAD_STA"],
+		[86, 96, "USAD_ZIP"]
+	]
+}], ["Ohio State University Department of Physics Physics Research Building, Room 1120, 191 West Woodruff Avenue, Columbus, OH 43210-1117\r", {
+	"entities": [
+		[0, 69, "USAD_ORG"],
+		[71, 75, "USAD_ANM"],
+		[76, 80, "USAD_ANO"],
+		[82, 85, "USAD_SNO"],
+		[86, 90, "USAD_SPR"],
+		[91, 99, "USAD_SNM"],
+		[100, 106, "USAD_SFX"],
+		[108, 116, "USAD_CTY"],
+		[118, 120, "USAD_STA"],
+		[121, 131, "USAD_ZIP"]
+	]
+}], ["University of California Santa Barbara Department of Mechanical Engineering Harold Frank Hall, Room 3164, Santa Barbara, CA 93106-5070\r", {
+	"entities": [
+		[0, 93, "USAD_ORG"],
+		[95, 99, "USAD_ANM"],
+		[100, 104, "USAD_ANO"],
+		[106, 119, "USAD_CTY"],
+		[121, 123, "USAD_STA"],
+		[124, 134, "USAD_ZIP"]
+	]
+}], ["University of Notre Dame Department of Economics 328 Malloy Hall, Notre Dame, IN 46556-4643\r", {
+	"entities": [
+		[0, 48, "USAD_ORG"],
+		[49, 52, "USAD_SNO"],
+		[53, 59, "USAD_SNM"],
+		[60, 64, "USAD_SFX"],
+		[66, 76, "USAD_CTY"],
+		[78, 80, "USAD_STA"],
+		[81, 91, "USAD_ZIP"]
+	]
+}], ["Emory University School of Medicine Whitehead Biomedical Research Building, Room 1003, 615 Michael Street, Atlanta, GA 30322-3030\r", {
+	"entities": [
+		[0, 74, "USAD_ORG"],
+		[76, 80, "USAD_ANM"],
+		[81, 85, "USAD_ANO"],
+		[87, 90, "USAD_SNO"],
+		[91, 98, "USAD_SNM"],
+		[99, 105, "USAD_SFX"],
+		[107, 114, "USAD_CTY"],
+		[116, 118, "USAD_STA"],
+		[119, 129, "USAD_ZIP"]
+	]
+}], ["University of Pittsburgh School of Law Barco Law Building, Room 304, 3900 Forbes Avenue, Pittsburgh, PA 15260-6101\r", {
+	"entities": [
+		[0, 57, "USAD_ORG"],
+		[59, 63, "USAD_ANM"],
+		[64, 67, "USAD_ANO"],
+		[69, 73, "USAD_SNO"],
+		[74, 80, "USAD_SNM"],
+		[81, 87, "USAD_SFX"],
+		[89, 99, "USAD_CTY"],
+		[101, 103, "USAD_STA"],
+		[104, 114, "USAD_ZIP"]
+	]
+}], ["University of California Davis Department of Physics Physics Building, Room 2123, One Shields Avenue, Davis, CA 95616-5270\r", {
+	"entities": [
+		[0, 69, "USAD_ORG"],
+		[71, 75, "USAD_ANM"],
+		[76, 80, "USAD_ANO"],
+		[82, 93, "USAD_SNM"],
+		[94, 100, "USAD_SFX"],
+		[102, 107, "USAD_CTY"],
+		[109, 111, "USAD_STA"],
+		[112, 122, "USAD_ZIP"]
+	]
+}], ["University of Arizona Department of Astronomy Steward Observatory, Room N204, 933 North Cherry Avenue, Tucson, AZ 85721-0065\r", {
+	"entities": [
+		[0, 65, "USAD_ORG"],
+		[67, 71, "USAD_ANM"],
+		[72, 76, "USAD_ANO"],
+		[78, 81, "USAD_SNO"],
+		[82, 87, "USAD_SPR"],
+		[88, 94, "USAD_SNM"],
+		[95, 101, "USAD_SFX"],
+		[103, 109, "USAD_CTY"],
+		[111, 113, "USAD_STA"],
+		[114, 124, "USAD_ZIP"]
+	]
+}], ["University of Colorado Boulder Department of Computer Science Engineering Center, Room ECCR 150, 1111 Engineering Drive, Boulder, CO 80309-4300\r", {
+	"entities": [
+		[0, 80, "USAD_ORG"],
+		[82, 91, "USAD_ANM"],
+		[92, 95, "USAD_ANO"],
+		[97, 101, "USAD_SNO"],
+		[102, 113, "USAD_SNM"],
+		[114, 119, "USAD_SFX"],
+		[121, 128, "USAD_CTY"],
+		[130, 132, "USAD_STA"],
+		[133, 143, "USAD_ZIP"]
+	]
+}], ["Michigan State University College of Engineering Engineering Building, Room 428, 428 South Shaw Lane, East Lansing, MI 48824-1226\r", {
+	"entities": [
+		[0, 69, "USAD_ORG"],
+		[71, 75, "USAD_ANM"],
+		[76, 79, "USAD_ANO"],
+		[81, 84, "USAD_SNO"],
+		[85, 90, "USAD_SPR"],
+		[91, 95, "USAD_SNM"],
+		[96, 100, "USAD_SFX"],
+		[102, 114, "USAD_CTY"],
+		[116, 118, "USAD_STA"],
+		[119, 129, "USAD_ZIP"]
+	]
+}], ["University of Florida Department of Psychology Psychology Building, Room 352, Gainesville, FL 32611-2250\r", {
+	"entities": [
+		[0, 66, "USAD_ORG"],
+		[68, 72, "USAD_ANM"],
+		[73, 76, "USAD_ANO"],
+		[78, 89, "USAD_CTY"],
+		[91, 93, "USAD_STA"],
+		[94, 104, "USAD_ZIP"]
+	]
+}], ["University of California Riverside Department of Chemistry Chemical Sciences Building, Room 1400, 900 University Avenue, Riverside, CA 92521-0403\r", {
+	"entities": [
+		[0, 85, "USAD_ORG"],
+		[87, 91, "USAD_ANM"],
+		[92, 96, "USAD_ANO"],
+		[98, 101, "USAD_SNO"],
+		[102, 112, "USAD_SNM"],
+		[113, 119, "USAD_SFX"],
+		[121, 130, "USAD_CTY"],
+		[132, 134, "USAD_STA"],
+		[135, 145, "USAD_ZIP"]
+	]
+}], ["University of Oregon School of Journalism and Communication Allen Hall, Room 321, 1275 University of Oregon, Eugene, OR 97403-1275\r", {
+	"entities": [
+		[0, 70, "USAD_ORG"],
+		[72, 76, "USAD_ANM"],
+		[77, 80, "USAD_ANO"],
+		[82, 86, "USAD_SNO"],
+		[87, 107, "USAD_SNM"],
+		[109, 115, "USAD_CTY"],
+		[117, 119, "USAD_STA"],
+		[120, 130, "USAD_ZIP"]
+	]
+}], ["University of Kansas Department of Psychology Fraser Hall, Room 426, 1415 Jayhawk Boulevard, Lawrence, KS 66045-7556\r", {
+	"entities": [
+		[0, 57, "USAD_ORG"],
+		[59, 63, "USAD_ANM"],
+		[64, 67, "USAD_ANO"],
+		[69, 73, "USAD_SNO"],
+		[74, 81, "USAD_SNM"],
+		[82, 91, "USAD_SFX"],
+		[93, 101, "USAD_CTY"],
+		[103, 105, "USAD_STA"],
+		[106, 116, "USAD_ZIP"]
+	]
+}], ["University of Texas at Austin College of Education George I Sï¿½nchez Building, Room 222, 1912 Speedway, Austin, TX 78712-1292\r", {
+	"entities": [
+		[0, 76, "USAD_ORG"],
+		[78, 82, "USAD_ANM"],
+		[83, 86, "USAD_ANO"],
+		[88, 92, "USAD_SNO"],
+		[93, 101, "USAD_SNM"],
+		[103, 109, "USAD_CTY"],
+		[111, 113, "USAD_STA"],
+		[114, 124, "USAD_ZIP"]
+	]
+}], ["University of Iowa Department of Physics and Astronomy Van Allen Hall, Room W290, Iowa City, IA 52242-1479\r", {
+	"entities": [
+		[0, 69, "USAD_ORG"],
+		[71, 75, "USAD_ANM"],
+		[76, 80, "USAD_ANO"],
+		[82, 91, "USAD_CTY"],
+		[93, 95, "USAD_STA"],
+		[96, 106, "USAD_ZIP"]
+	]
+}], ["University of Cincinnati College of Engineering and Applied Science Rhodes Hall, Room 320, 2901 Woodside Drive, Cincinnati, OH 45221-0072\r", {
+	"entities": [
+		[0, 79, "USAD_ORG"],
+		[81, 85, "USAD_ANM"],
+		[86, 89, "USAD_ANO"],
+		[91, 95, "USAD_SNO"],
+		[96, 104, "USAD_SNM"],
+		[105, 110, "USAD_SFX"],
+		[112, 122, "USAD_CTY"],
+		[124, 126, "USAD_STA"],
+		[127, 137, "USAD_ZIP"]
+	]
+}], ["University of California San Diego Department of Computer Science and Engineering Computer Science and Engineering Building, Room 4119, 9500 Gilman Drive, La Jolla, CA 92093-0404\r", {
+	"entities": [
+		[0, 123, "USAD_ORG"],
+		[125, 129, "USAD_ANM"],
+		[130, 134, "USAD_ANO"],
+		[136, 140, "USAD_SNO"],
+		[141, 147, "USAD_SNM"],
+		[148, 153, "USAD_SFX"],
+		[155, 163, "USAD_CTY"],
+		[165, 167, "USAD_STA"],
+		[168, 178, "USAD_ZIP"]
+	]
+}], ["University of Alabama College of Arts and Sciences Clark Hall, Room 202, Tuscaloosa, AL 35487-0211\r", {
+	"entities": [
+		[0, 61, "USAD_ORG"],
+		[63, 67, "USAD_ANM"],
+		[68, 71, "USAD_ANO"],
+		[73, 83, "USAD_CTY"],
+		[85, 87, "USAD_STA"],
+		[88, 98, "USAD_ZIP"]
+	]
+}], ["University of Virginia Department of History Nau Hall, Room 341, Charlottesville, VA 22903-2447\r", {
+	"entities": [
+		[0, 53, "USAD_ORG"],
+		[55, 59, "USAD_ANM"],
+		[60, 63, "USAD_ANO"],
+		[65, 80, "USAD_CTY"],
+		[82, 84, "USAD_STA"],
+		[85, 95, "USAD_ZIP"]
+	]
+}], ["University of Wisconsin-Eau Claire Department of Geography and Anthropology Centennial Hall, Room 2212, 1698 Park Avenue, Eau Claire, WI 54701-4004\r", {
+	"entities": [
+		[0, 91, "USAD_ORG"],
+		[93, 97, "USAD_ANM"],
+		[98, 102, "USAD_ANO"],
+		[104, 108, "USAD_SNO"],
+		[109, 113, "USAD_SNM"],
+		[114, 120, "USAD_SFX"],
+		[122, 132, "USAD_CTY"],
+		[134, 136, "USAD_STA"],
+		[137, 147, "USAD_ZIP"]
+	]
+}], ["University of California Santa Cruz Department of Earth and Planetary Sciences Earth and Marine Sciences Building, Room A316, 1156 High Street, Santa Cruz, CA 95064-1077\r", {
+	"entities": [
+		[0, 113, "USAD_ORG"],
+		[115, 119, "USAD_ANM"],
+		[120, 124, "USAD_ANO"],
+		[126, 130, "USAD_SNO"],
+		[131, 135, "USAD_SNM"],
+		[136, 142, "USAD_SFX"],
+		[144, 154, "USAD_CTY"],
+		[156, 158, "USAD_STA"],
+		[159, 169, "USAD_ZIP"]
+	]
+}], ["University of Arkansas Department of Biological Sciences Science Engineering Hall, Room 604, Fayetteville, AR 72701-1201", {
+	"entities": [
+		[0, 81, "USAD_ORG"],
+		[83, 87, "USAD_ANM"],
+		[88, 91, "USAD_ANO"],
+		[93, 105, "USAD_CTY"],
+		[107, 109, "USAD_STA"],
+		[110, 120, "USAD_ZIP"]
+	]
+}],
+
+["1000 Avenida Ponce de Leon Ste 5, San Juan, PR 00907\r", {
+	"entities": [
+		[0, 4, "USAD_SNO"],
+		[5, 12, "USAD_SFX"],
+		[13, 26, "USAD_SNM"],
+		[27, 30, "USAD_ANM"],
+		[31, 32, "USAD_ANO"],
+		[34, 42, "USAD_CTY"],
+		[44, 46, "USAD_STA"],
+		[47, 52, "USAD_ZIP"]
+	]
+}], ["234 Calle del Parque Apt 3A, San Juan, PR 00912\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 9, "USAD_SFX"],
+		[10, 20, "USAD_SNM"],
+		[21, 24, "USAD_ANM"],
+		[25, 27, "USAD_ANO"],
+		[29, 37, "USAD_CTY"],
+		[39, 41, "USAD_STA"],
+		[42, 47, "USAD_ZIP"]
+	]
+}], ["345 Avenida Fernandez Juncos Ste 2B, San Juan, PR 00901\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 11, "USAD_SFX"],
+		[12, 28, "USAD_SNM"],
+		[29, 32, "USAD_ANM"],
+		[33, 35, "USAD_ANO"],
+		[37, 45, "USAD_CTY"],
+		[47, 49, "USAD_STA"],
+		[50, 55, "USAD_ZIP"]
+	]
+}], ["456 Boulevard Munoz Rivera Apt 10, San Juan, PR 00918\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 13, "USAD_SFX"],
+		[14, 26, "USAD_SNM"],
+		[27, 30, "USAD_ANM"],
+		[31, 33, "USAD_ANO"],
+		[35, 43, "USAD_CTY"],
+		[45, 47, "USAD_STA"],
+		[48, 53, "USAD_ZIP"]
+	]
+}], ["678 Calle Padial Ste 4, San Juan, PR 00926\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 9, "USAD_SFX"],
+		[10, 16, "USAD_SNM"],
+		[17, 20, "USAD_ANM"],
+		[21, 22, "USAD_ANO"],
+		[24, 32, "USAD_CTY"],
+		[34, 36, "USAD_STA"],
+		[37, 42, "USAD_ZIP"]
+	]
+}], ["789 Avenida Juan Ponce de Leon Ste 6A, San Juan, PR 00915\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 11, "USAD_SFX"],
+		[12, 30, "USAD_SNM"],
+		[31, 34, "USAD_ANM"],
+		[35, 37, "USAD_ANO"],
+		[39, 47, "USAD_CTY"],
+		[49, 51, "USAD_STA"],
+		[52, 57, "USAD_ZIP"]
+	]
+}], ["890 Calle Arroyo Apt 7B, San Juan, PR 00919\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 9, "USAD_SFX"],
+		[10, 16, "USAD_SNM"],
+		[17, 20, "USAD_ANM"],
+		[21, 23, "USAD_ANO"],
+		[25, 33, "USAD_CTY"],
+		[35, 37, "USAD_STA"],
+		[38, 43, "USAD_ZIP"]
+	]
+}], ["901 Carrera De Diego Ste 2, San Juan, PR 00908\r", {
+	"entities": [
+		[0, 3, "USAD_SNO"],
+		[4, 11, "USAD_SFX"],
+		[12, 20, "USAD_SNM"],
+		[21, 24, "USAD_ANM"],
+		[25, 26, "USAD_ANO"],
+		[28, 36, "USAD_CTY"],
+		[38, 40, "USAD_STA"],
+		[41, 46, "USAD_ZIP"]
+	]
+}], ["1234 Calle Cerra Apt 8, San Juan, PR 00920\r", {
+	"entities": [
+		[0, 4, "USAD_SNO"],
+		[5, 10, "USAD_SFX"],
+		[11, 16, "USAD_SNM"],
+		[17, 20, "USAD_ANM"],
+		[21, 22, "USAD_ANO"],
+		[24, 32, "USAD_CTY"],
+		[34, 36, "USAD_STA"],
+		[37, 42, "USAD_ZIP"]
+	]
+}], ["5678 Carrera Ashford Ste 3A, San Juan, PR 00907\r", {
+	"entities": [
+		[0, 4, "USAD_SNO"],
+		[5, 12, "USAD_SFX"],
+		[13, 20, "USAD_SNM"],
+		[21, 24, "USAD_ANM"],
+		[25, 27, "USAD_ANO"],
+		[29, 37, "USAD_CTY"],
+		[39, 41, "USAD_STA"],
+		[42, 47, "USAD_ZIP"]
+	]
+}], ["Casa 10 Calle Las Flores, Aguadilla, PR 00603\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 7, "USAD_ANO"],
+		[8, 13, "USAD_SFX"],
+		[14, 24, "USAD_SNM"],
+		[26, 35, "USAD_CTY"],
+		[37, 39, "USAD_STA"],
+		[40, 45, "USAD_ZIP"]
+	]
+}], ["Casa 3 Avenida Isla Verde, Carolina, PR 00979\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 6, "USAD_ANO"],
+		[7, 14, "USAD_SFX"],
+		[15, 25, "USAD_SNM"],
+		[27, 35, "USAD_CTY"],
+		[37, 39, "USAD_STA"],
+		[40, 45, "USAD_ZIP"]
+	]
+}], ["Casa 21 Boulevard Los Pinos, Bayamon, PR 00959\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 7, "USAD_ANO"],
+		[8, 17, "USAD_SFX"],
+		[18, 27, "USAD_SNM"],
+		[29, 36, "USAD_CTY"],
+		[38, 40, "USAD_STA"],
+		[41, 46, "USAD_ZIP"]
+	]
+}], ["Casa 7 Carrera Palma Real, Humacao, PR 00791\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 6, "USAD_ANO"],
+		[7, 14, "USAD_SFX"],
+		[15, 25, "USAD_SNM"],
+		[27, 34, "USAD_CTY"],
+		[36, 38, "USAD_STA"],
+		[39, 44, "USAD_ZIP"]
+	]
+}], ["Casa 15 Calle Los Cocos, Guaynabo, PR 00969\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 7, "USAD_ANO"],
+		[8, 13, "USAD_SFX"],
+		[14, 23, "USAD_SNM"],
+		[25, 33, "USAD_CTY"],
+		[35, 37, "USAD_STA"],
+		[38, 43, "USAD_ZIP"]
+	]
+}], ["Casa 8 Carrera Magnolia, Ponce, PR 00731\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 6, "USAD_ANO"],
+		[8, 15, "USAD_SFX"],
+		[16, 24, "USAD_SNM"],
+		[26, 31, "USAD_CTY"],
+		[33, 35, "USAD_STA"],
+		[36, 41, "USAD_ZIP"]
+	]
+}], ["Casa 11 Calle Los Flamboyanes, Caguas, PR 00725\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 7, "USAD_ANO"],
+		[8, 13, "USAD_SFX"],
+		[14, 29, "USAD_SNM"],
+		[31, 37, "USAD_CTY"],
+		[39, 41, "USAD_STA"],
+		[42, 47, "USAD_ZIP"]
+	]
+}], ["Casa 4 Avenida San Patricio, San Juan, PR 00968\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 6, "USAD_ANO"],
+		[7, 14, "USAD_SFX"],
+		[15, 27, "USAD_SNM"],
+		[29, 37, "USAD_CTY"],
+		[39, 41, "USAD_STA"],
+		[42, 47, "USAD_ZIP"]
+	]
+}], ["Casa 13 Calle 44, Fajardo, PR 00738\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 7, "USAD_ANO"],
+		[8, 13, "USAD_SFX"],
+		[14, 16, "USAD_SNM"],
+		[18, 25, "USAD_CTY"],
+		[27, 29, "USAD_STA"],
+		[30, 35, "USAD_ZIP"]
+	]
+}], ["Casa 6 Calle Las Brisas, Manati, PR 00674\r", {
+	"entities": [
+		[0, 4, "USAD_ANM"],
+		[5, 6, "USAD_ANO"],
+		[7, 12, "USAD_SFX"],
+		[13, 23, "USAD_SNM"],
+		[25, 31, "USAD_CTY"],
+		[33, 35, "USAD_STA"],
+		[36, 41, "USAD_ZIP"]
+	]
+}], ["C 23 Apt 4B SE, San Juan, PR 00912\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[12, 14, "USAD_SPT"],
+		[16, 24, "USAD_CTY"],
+		[26, 28, "USAD_STA"],
+		[29, 34, "USAD_ZIP"]
+	]
+}], ["A 12 Bldg 3A, Ponce, PR 00730\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 9, "USAD_ANM"],
+		[10, 12, "USAD_ANO"],
+		[14, 19, "USAD_CTY"],
+		[21, 23, "USAD_STA"],
+		[24, 29, "USAD_ZIP"]
+	]
+}], ["C 45 Apt 2C NE, Carolina, PR 00987\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[12, 14, "USAD_SPT"],
+		[16, 24, "USAD_CTY"],
+		[26, 28, "USAD_STA"],
+		[29, 34, "USAD_ZIP"]
+	]
+}], ["C 56 Ste 1B, Bayamón, PR 00961\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[13, 20, "USAD_CTY"],
+		[22, 24, "USAD_STA"],
+		[25, 30, "USAD_ZIP"]
+	]
+}], ["B 78 BLK 5D, Guaynabo, PR 00966\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[13, 21, "USAD_CTY"],
+		[23, 25, "USAD_STA"],
+		[26, 31, "USAD_ZIP"]
+	]
+}], ["C 67 Apt 6C, Fajardo, PR 00738\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[13, 20, "USAD_CTY"],
+		[22, 24, "USAD_STA"],
+		[25, 30, "USAD_ZIP"]
+	]
+}], ["B 89 Bldg 7A SE, Aguadilla, PR 00603\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 9, "USAD_ANM"],
+		[10, 12, "USAD_ANO"],
+		[13, 15, "USAD_SPT"],
+		[17, 26, "USAD_CTY"],
+		[28, 30, "USAD_STA"],
+		[31, 36, "USAD_ZIP"]
+	]
+}], ["C 34 Apt 8B, Mayagüez, PR 00682\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[13, 21, "USAD_CTY"],
+		[23, 25, "USAD_STA"],
+		[26, 31, "USAD_ZIP"]
+	]
+}], ["A 90 Apt 9C, Humacao, PR 00791\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 11, "USAD_ANO"],
+		[13, 20, "USAD_CTY"],
+		[22, 24, "USAD_STA"],
+		[25, 30, "USAD_ZIP"]
+	]
+}], ["C 12 Apt 10D, Arecibo, PR 00612\r", {
+	"entities": [
+		[0, 1, "USAD_SFX"],
+		[2, 4, "USAD_SNM"],
+		[5, 8, "USAD_ANM"],
+		[9, 12, "USAD_ANO"],
+		[14, 21, "USAD_CTY"],
+		[23, 25, "USAD_STA"],
+		[26, 31, "USAD_ZIP"]
+	]
+}], ["20 C Del Parque BLK 5, San Juan, PR 00927\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 15, "USAD_SNM"],
+		[16, 19, "USAD_ANM"],
+		[20, 21, "USAD_ANO"],
+		[23, 31, "USAD_CTY"],
+		[33, 35, "USAD_STA"],
+		[36, 41, "USAD_ZIP"]
+	]
+}], ["25 C De la Luna BLK 2, Bayamón, PR 00959\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 15, "USAD_SNM"],
+		[16, 19, "USAD_ANM"],
+		[20, 21, "USAD_ANO"],
+		[23, 30, "USAD_CTY"],
+		[32, 34, "USAD_STA"],
+		[35, 40, "USAD_ZIP"]
+	]
+}], ["8 C Las Brisas BLK 1, Carolina, PR 00987\r", {
+	"entities": [
+		[0, 1, "USAD_SNO"],
+		[2, 3, "USAD_SFX"],
+		[4, 14, "USAD_SNM"],
+		[15, 18, "USAD_ANM"],
+		[19, 20, "USAD_ANO"],
+		[22, 30, "USAD_CTY"],
+		[32, 34, "USAD_STA"],
+		[35, 40, "USAD_ZIP"]
+	]
+}], ["30 C De la Fuente BLK 4, Humacao, PR 00791\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 17, "USAD_SNM"],
+		[18, 21, "USAD_ANM"],
+		[22, 23, "USAD_ANO"],
+		[25, 32, "USAD_CTY"],
+		[34, 36, "USAD_STA"],
+		[37, 42, "USAD_ZIP"]
+	]
+}], ["18 C De la Rosa BLK 3, Guaynabo, PR 00966\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 15, "USAD_SNM"],
+		[16, 19, "USAD_ANM"],
+		[20, 21, "USAD_ANO"],
+		[23, 31, "USAD_CTY"],
+		[33, 35, "USAD_STA"],
+		[36, 41, "USAD_ZIP"]
+	]
+}], ["22 C De la Montaña BLK 6, Mayagüez, PR 00682\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 18, "USAD_SNM"],
+		[19, 22, "USAD_ANM"],
+		[23, 24, "USAD_ANO"],
+		[26, 34, "USAD_CTY"],
+		[36, 38, "USAD_STA"],
+		[39, 44, "USAD_ZIP"]
+	]
+}], ["11 C De la Playa BLK 7, Dorado, PR 00646\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 16, "USAD_SNM"],
+		[17, 20, "USAD_ANM"],
+		[21, 22, "USAD_ANO"],
+		[24, 30, "USAD_CTY"],
+		[32, 34, "USAD_STA"],
+		[35, 40, "USAD_ZIP"]
+	]
+}], ["6 C De la Costa BLK 10, Arecibo, PR 00612\r", {
+	"entities": [
+		[0, 1, "USAD_SNO"],
+		[2, 3, "USAD_SFX"],
+		[4, 15, "USAD_SNM"],
+		[16, 19, "USAD_ANM"],
+		[20, 22, "USAD_ANO"],
+		[24, 31, "USAD_CTY"],
+		[33, 35, "USAD_STA"],
+		[36, 41, "USAD_ZIP"]
+	]
+}], ["20 C 10 NE B 6, San Juan, PR 00925\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 7, "USAD_SNM"],
+		[8, 10, "USAD_SPT"],
+		[11, 12, "USAD_ANM"],
+		[13, 14, "USAD_ANO"],
+		[16, 24, "USAD_CTY"],
+		[26, 28, "USAD_STA"],
+		[29, 34, "USAD_ZIP"]
+	]
+}], ["15 C 22 SW B 8, Ponce, PR 00730\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 7, "USAD_SNM"],
+		[8, 10, "USAD_SPT"],
+		[11, 12, "USAD_ANM"],
+		[13, 14, "USAD_ANO"],
+		[16, 21, "USAD_CTY"],
+		[23, 25, "USAD_STA"],
+		[26, 31, "USAD_ZIP"]
+	]
+}], ["25 C 8 NW B 2, Bayamón, PR 00959\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 6, "USAD_SNM"],
+		[7, 9, "USAD_SPT"],
+		[10, 11, "USAD_ANM"],
+		[12, 13, "USAD_ANO"],
+		[15, 22, "USAD_CTY"],
+		[24, 26, "USAD_STA"],
+		[27, 32, "USAD_ZIP"]
+	]
+}], ["8 C 16 SE B 1, Carolina, PR 00987\r", {
+	"entities": [
+		[0, 1, "USAD_SNO"],
+		[2, 3, "USAD_SFX"],
+		[4, 6, "USAD_SNM"],
+		[7, 9, "USAD_SPT"],
+		[10, 11, "USAD_ANM"],
+		[12, 13, "USAD_ANO"],
+		[15, 23, "USAD_CTY"],
+		[25, 27, "USAD_STA"],
+		[28, 33, "USAD_ZIP"]
+	]
+}], ["30 C 26 NE B 4, Humacao, PR 00791\r", {
+	"entities": []
+}], ["18 C 12 NW B 3, Guaynabo, PR 00966\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 7, "USAD_SNM"],
+		[8, 10, "USAD_SPT"],
+		[11, 12, "USAD_ANM"],
+		[13, 14, "USAD_ANO"],
+		[16, 24, "USAD_CTY"],
+		[26, 28, "USAD_STA"],
+		[29, 34, "USAD_ZIP"]
+	]
+}], ["12 C 2 SE B 9, Fajardo, PR 00738\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 6, "USAD_SNM"],
+		[7, 9, "USAD_SPT"],
+		[10, 11, "USAD_ANM"],
+		[12, 13, "USAD_ANO"],
+		[15, 22, "USAD_CTY"],
+		[24, 26, "USAD_STA"],
+		[27, 32, "USAD_ZIP"]
+	]
+}], ["22 C 18 SW B 6, Mayagüez, PR 00682\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 7, "USAD_SNM"],
+		[8, 10, "USAD_SPT"],
+		[11, 12, "USAD_ANM"],
+		[13, 14, "USAD_ANO"],
+		[16, 24, "USAD_CTY"],
+		[26, 28, "USAD_STA"],
+		[29, 34, "USAD_ZIP"]
+	]
+}], ["11 C 6 NE B 7, Dorado, PR 00646\r", {
+	"entities": [
+		[0, 2, "USAD_SNO"],
+		[3, 4, "USAD_SFX"],
+		[5, 6, "USAD_SNM"],
+		[7, 9, "USAD_SPT"],
+		[10, 11, "USAD_ANM"],
+		[12, 13, "USAD_ANO"],
+		[15, 21, "USAD_CTY"],
+		[23, 25, "USAD_STA"],
+		[26, 31, "USAD_ZIP"]
+	]
+}], ["6 C 28 SE B 10, Arecibo, PR 00612", {
+	"entities": [
+		[0, 1, "USAD_SNO"],
+		[2, 3, "USAD_SFX"],
+		[4, 6, "USAD_SNM"],
+		[7, 9, "USAD_SPT"],
+		[10, 11, "USAD_ANM"],
+		[12, 14, "USAD_ANO"],
+		[16, 23, "USAD_CTY"],
+		[25, 27, "USAD_STA"],
+		[28, 33, "USAD_ZIP"]
+	]
+}]
+
+
+
+
+
+
+
+			
+	]
+}

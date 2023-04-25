@@ -1,0 +1,318 @@
+1 | 43 State Ave ,New Albany, IN 47150
+2 | 815 Marvon St South Ozone Park, NY 11420
+3 | 6678 University Avenue ,San Juan,PR 00926
+4 | 109 Markhan St , Corona, NY 11368
+5 | 81 Mccain Rd ,Chicago , IL 60629
+6 | 8190 Marsh Ave, The Villages, FL 32162
+7 | 7966 Beacon St ,Sun Prairie, WI 53590
+8 | 44 Sunbeam Avenue ,Pataskala, OH 43062
+9 | 151 Meadow Lane ,Toms River, NJ 08753
+10 | 88 North Lockport ,Lockport , NY 14094
+11 | 4456 Markhan Ave , Franklin Square ,NY 11010
+12 | 106 DOYERS ST , Los Angeles , CA 90011
+13 | 599 BAY BLVD ,Pacoima , CA 91331
+14 | 72 ANDERSON PL , Ketchikan , AK 99950
+15 | 4459 Jefferson Street , Chesapeake , Virginia 23321
+16 | 2005 Conifer Drive , Tukwila, Washington 98168
+17 | 3864 Camel Back Road , Tulsa , Oklahoma 74145
+18 | 2169 Green Hill Road , Bentonville, Arkansas 72712
+19 | 245 Linden Avenue , Winter Park, Florida 32789
+20 | 4806 Tenmile, Los Angeles, California 90017
+21 | 634 Willow Greene Drive,Montgomery,Alabama 36116
+22 | 3863 Berkshire Circle, Knoxville, Tennessee 37917
+23 | 3960 Hilltop Street,Colrain,Massachusetts 01340
+24 | 4535 Oliverio Drive,Moundridge, Kansas 67107
+25 | 3006 Havanna Street,Greensboro, North Carolina 27401
+26 | 3168 Oak Avenue,Cedar Knolls,New Jersey 07927
+27 | 951 Terra Street,Georgetown, Florida 32139
+28 | 1990 Richards Avenue,San Gabriel,California 91775
+29 | 4858 Stoneybrook Road, Orlando,Florida 32801
+30 | 963 Freedom Lane,Lodi,California 95240
+31 | 3662 Bicetown Road,Corona, New York 11368
+32 | 4325 Hidden Meadow Drive,CAMP HILL,Pennsylvania 17012
+33 | 2588 Armbrester Drive,Gardena,California 90248
+34 | 1980 Alexander Drive,Truscott, Texas 79260
+35 | 2738 Patterson Street,Houston, Texas 77092
+36 | 1778 Snyder Avenue,Charlotte, North Carolina 28202
+37 | 4096 Hillcrest Drive,Tukwila, Washington 98168
+38 | 2453 Walnut Drive,Dahlen, North Dakota 58224
+39 | 2026 Lowland Drive,Beloit, Illinois 53511
+40 | 693 Jerry Dove Drive,Beaufort, South Carolina 29902
+41 | 396 Nickel Road,Alhambra,California 91801
+42 | 2388 Kuhl Avenue,Atlanta,Georgia 30303
+43 | 254 Midway Road,Boles,Arkansas 72926
+44 | 1310 Breezewood Court,Arma,Kansas 66712
+45 | 3551 Rubaiyat Road,Grand Rapids,Michigan 49503
+46 | 1405 Spring Avenue,Fort Washington,Pennsylvania 19034
+47 | 4705 Preston Street,Plainfield,Illinois 60586
+48 | 1977 Laurel Lee,Minneapolis,Minnesota 55415
+49 | 1254 Rodney Street,Chesterfield,Missouri 63005
+50 | 3759 Collins Street,Tampa,Florida 33619
+51 | PO BOX 1599 Woonsocket RI 02895
+52 | PO BOX 1232 Millville NJ 08332
+53 | PO BOX 4211 Enterprise CT 36330
+54 | PO BOX 1212  Hollywood FL 33020
+55 | PO BOX 1065 Lullaby CA 92880
+56 | PO BOX 2595 Dalzell SC 29040
+57 | PO BOX 425 Frankfort KY 40601
+58 | PO BOX 2304 Waukegan IL 60087
+59 | PO BOX 1912 Mitchell SD 57301
+60 | PO BOX 4599 Mount Pleasant SC 29464
+61 | PO BOX 129 Arlington MA 02476
+62 | PO BOX 269 Lake City FL 32055
+63 | Po Box 70 Honesdale PA 18431
+64 | PO BOX 9561 Tualatin OR 97062
+65 | PO BOX 4521 Enterprise AL 36330
+66 | PO BOX 30292 Roseville MI 48066
+67 | PO BOX 1211 Oxford MS 38655
+68 | PO BOX 30292 Roseville VA 23185
+69 | PO BOX 102 Troy NY 12180
+70 | PO BOX 8547 Nashville TN 37205
+71 | PO BOX 968 Elyria OH 44035
+72 | PO BOX 98 Lovington NM 88260
+73 | PO BOX 1204 Mchenry IL 60050
+74 | PO BOX 809 Owatonna MN 55060
+75 | PO BOX 2017 Henrico VA 23228
+76 | PO BOX 634 Grafton WV 26354
+77|RR 15 BOX 36 Austin PA 16720
+78|RR 22 BOX 71 McGregor IA 52157
+79|RR 2 BOX 22 Lawton IA 51030
+80|RR 12 BOX 19 Topmost KY 41862
+81|RR 15 BOX 73 Capron IL 61012
+82|RR 16 BOX 90 Sarcoxie MO 64862
+83|RR 4 BOX 98 Marmaduke AR 72443
+84|RR 5 BOX 10 Putney KY 40865
+85|RR 11 BOX 76 Rosedale IN 47874
+86|RR 6 BOX 45 Stuart VA 24171
+87|RR 3 BOX 27 Sibley LA 71073
+88|RR 1 BOX 69 Larned KS 67550
+89|RR 4 BOX 72 Grafton ND 58237
+90|RR 2 BOX 16 Mulino OR 97042
+91|RR 5 BOX 42 Moulton IA 52572
+92|RR 8 BOX 70 Cascade WI 53011
+93|RR 9 BOX 84 Homer MI 49245
+94|RR 11 BOX 44 Burnside KY 42519
+95|RR 12 BOX 25 Fairfield WA 99012
+96|RR 13 BOX 61 Atwood KS 67730
+97|RR 14 BOX 94 Greencastle IN 46135
+98|RR 15 BOX 38 Kirbyville TX 75956
+99|RR 17 BOX 86 Bonesteel SD 57317
+100|RR 18 BOX 52 Chewelah WA 99109
+101|RR 20 BOX 10 Rutledge TN 37861
+102|RR 21 BOX 77 Roscommon MI 48653
+103|RR 23 BOX 32 Sherwood OR 97140
+104|RR 24 BOX 67 Colfax WI 54730
+105|RR 25 BOX 99 Alice TX 78332
+106|RR 27 BOX 46 Vanceboro ME 04491
+107|RR 28 BOX 80 Tipton IN 46072
+108|RR 30 BOX 47 Cherokee TX 76832
+109|RR 31 BOX 73 Easton MN 56025
+110|RR 33 BOX 68 Mattituck NY 11952
+111|RR 35 BOX 17 Ellsworth KS 67439
+112|RR 37 BOX 55 Knoxville PA 16928
+113|RR 39 BOX 87 Pueblo CO 81001
+114|RR 40 BOX 31 Laconia NH 03246
+115|RR 42 BOX 64 Williston VT 05495
+116|RR 44 BOX 99 Canmer KY 42722
+117|RR 45 BOX 22 Beaverville IL 60912
+118|RR 47 BOX 47 South Colton NY 13687
+119|RR 49 BOX 82 Minneota MN 56264
+120|RR 50 BOX 13 Putnamville IN 46170
+121|RR 52 BOX 88 Koshkonong MO 65692
+122|RR 54 BOX 30 Chaparral NM 88081
+123|RR 56 BOX 66 Bluefield WV 24701
+124|RR 57 BOX 91 Mound Valley KS 67354
+125|RR 59 BOX 45 Harwich MA 02645
+126|RR 61 BOX 98 Washburn WI 54891
+127| APO AE 09427
+128| FPO AP 96377
+129| APO AA 09539
+130| FPO AE 09631
+131| APO AP 96373
+132| FPO AA 34002
+133| APO AE 09096
+134| FPO AP 96517
+135| APO AA 09208
+136| FPO AE 09861
+137| APO AE 09428
+138| APO AP 96251
+139| APO AA 09287
+140| FPO AE 09826
+141| FPO AP 96548
+142| APO AA 09116
+143| APO AE 09609
+144| FPO AP 96373
+145| APO AA 09516
+146| APO AE 09377
+147| APO AP 96206
+148| FPO AE 09844
+149| APO AA 09434
+150| APO AE 09680
+151|  HC 68 BOX 23 Chicago, IL 44432
+152|  HC 32 BOX 12 Raeford, NC 28376
+153|  HC 02 BOX 45 Sterling Heights, MI 48310
+154|  HC 94 BOX 41 Buffalo Grove, IL 60089
+155|  HC 81 BOX 32 Lancaster, NY 14086
+156|  HC 22 BOX 12 Baton Rouge, LA 70806
+157|  HC 5323 BOX 25 Feasterville Trevose, PA 19053
+158|  HC 91 BOX 54 Blacksburg, VA 24060
+159|  HC 55 BOX 83 Nazareth, PA 18064
+160|  HC 13 BOX 56 Hoboken, NJ 07030
+161|  HC 2342 BOX 5 Lewis Center, OH 43035
+162|  HC 4013 BOX 4 Wanette, Oklahoma, 74878
+163|  Hc 432 BOX 410 Cecil, Ohio, 45821
+164|  HC 002 BOX 11 South Bend, IN 46614
+165|  HC 9900 BOX 9 Fort Worth, TX 76110
+166|  HC 103 BOX 001 Titusville, FL 32780
+167|  HC 44W BOX 840 Pembroke Pines, FL 33028
+168|  HC 84K BOX 0 Ambler, PA 19002
+169|  HC 665N BOX 3 Freeport, NY 11520
+170|  HC 09 BOX 31 East Haven, CT 06512
+171|  HC 45 BOX 8 Aliquippa, PA 15001
+172|  HC 88 BOX 9O Cranston, RI 02920
+173|  HC 023 BOX 3 Madison Heights, MI 48071
+174|  HC 83 BOX 77 Nottingham, MD 21236
+175|  HC 21 BOX 48 Westford, MA 01886
+176|  Hc 98 Box 323 Winston Salem, NC 27103
+177|  hc 02 box 34 Oxon Hill, MD 20745
+178|  hC 573 BOx 2 Round Lake, IL 60073
+179|  HC 42 bOX 64 Milledgeville, GA 31061
+180|  hC 24 BOX 543 Davison, MI 48423
+181|  hc 981 BOX 21 Pearl, MS 39208
+182|  HC 83422 Box 028 Waynesboro, PA 17268
+183|  hc 72 box 4324 Waynesboro, PA 17268
+184|  HC 27 bOX 321 Lithonia, GA 30038
+185|  HC 878 BOX 44 Elizabethtown, PA 17022
+186|  HC 902 box Waterford, MI 48329
+187|  Hc 787 box 2 Henderson, KY 42420
+188|  HC 3 box 3 Coram, NY 11727
+189|  HC 21 box 39 Henrico, VA 23228
+190|  HC 37 box 6 Stow, OH 44224
+191|  HC 6224 BOX 883 Carmel, NY 10512
+192|  hc 42 BOX 86 Fairfax, VA 22030
+193|  HC 72 BOX 012 Hopewell, VA 2386
+194|  Hc 82 BOX 92 Wilmington, MA 01887
+195|  HC 23 BOX 32 Crofton, MD 21114
+196|  hC 97 Box 765 Bluffton, SC 29910
+197|  HC 90 box 2 Southfield, MI 48076
+198|  Hc 32 BOx 53 Waukesha, WI 53186
+199|  hc 80w box 23 Downingtown, PA 19335
+200|  HC 74 BOX 87 Warren, MI 48089
+201|  hC 32 BOX 72 Utica, NY 13501
+202|  Hc 291 BOX 32 Coram, NY 11727
+203|  HC 292 BOx 23 Bay Shore, NY 11706
+204|  hc 706 BOX 11 Point Pleasant Beach, NJ 08742
+205|  HC 12 BOX 13 Chatsworth, GA 30705
+206|  HC 70 BOX 10 Ballston Spa, NY 12020
+207|  Hc 89 box 201 Nanuet, NY 10954
+208|  HC 954 BOX 9 Valley Stream, NY 11580
+209|  hc 580 box 706 Libertyville, IL 60048
+210|  HC 89 box 98 Tuckerton, NJ 08087
+211|  hC 087 BOX 82 Copperas Cove, TX 76522
+212|  HC 522 Box 522 Graham, NC 27253
+213|  Hc 253 BOx 253 North Bergen, NJ 07047
+214|  Hc 047 box 42l Lacey, WA 98503
+215|  hc 503 BOX 98 Groton, CT 06340
+216|  HC 340 BOX 06 Logansport, IN 46947
+217|  HC 947 BOX 46 Glastonbury, CT 06033
+218|  hc 033 box 228 San Angelo, TX 76901
+219|  HC 76 BOX 29 Hinesville, GA 31313
+220|  hc 31 box 901 Billings, MT 59101
+221|Yale University Department of Psychology Harkness Hall, Suite 300, New Haven, CT 06520-8205
+222|University of California Los Angeles Anderson School of Management, 110 Westwood Plaza, Suite B402, Los Angeles, CA 90095-1481
+223|Harvard University Department of Physics Jefferson Physical Laboratory, Room 455, Cambridge, MA 02138-2019
+224|Stanford University Graduate School of Business Knight Management Center, 655 Knight Way, Suite 245, Stanford, CA 94305-7298
+225|University of California Merced School of Engineering Science and Engineering Building 2, Room 264, 5200 North Lake Road, Merced, CA 95343-5603
+226|Columbia University Department of Economics International Affairs Building, Room 834, 420 West 118th Street, New York, NY 10027-7297
+227|University of Pennsylvania Wharton School Jon M Huntsman Hall, 3730 Walnut Street, Suite 500, Philadelphia, PA 19104-6340
+228|California Institute of Technology Division of Engineering and Applied Science, 1200 East California Boulevard, Room 301, Pasadena, CA 91125-3200
+229|University of Michigan Department of Computer Science and Engineering Beyster Building, Room 3750, 2260 Hayward Street, Ann Arbor, MI 48109-2121
+230|Brown University Department of Biology and Medicine Sidney Frank Hall, Room 220, 185 Meeting Street, Providence, RI 02912-0108
+231|University of Virginia Darden School of Business, 100 Darden Boulevard, Charlottesville, VA 22903-5268
+232|Duke University Department of Political Science Gross Hall, Room 200, 140 Science Drive, Durham, NC 27708-0208
+233|Northwestern University Kellogg School of Management Global Hub, 2211 Campus Drive, Room 4235, Evanston, IL 60208-2800
+234|University of Texas at Austin Department of Chemical Engineering CPE Building, Room 5208, 200 E Dean Keeton St, Austin, TX 78712-1589
+235|University of California San Diego Department of Cognitive Science McGill Hall, Room 3340, 9500 Gilman Drive, La Jolla, CA 92093-0515
+236|University of Chicago Booth School of Business Harper Center, 5807 South Woodlawn Avenue, Suite 204, Chicago, IL 60637-1610
+237|Princeton University Department of Chemistry Frick Laboratory, Room B322, Princeton, NJ 08544-1009
+238|Cornell University Johnson Graduate School of Management Sage Hall, Room 222, 114 East Avenue, Ithaca, NY 14853-6201
+239|University of California Berkeley Department of History, 3229 Dwinelle Hall, Berkeley, CA 94720-2550
+240|University of Missouri Department of Chemistry Chemistry Building, Room 325, 601 South College Avenue, Columbia, MO 65211-7600
+241|Georgia Institute of Technology School of Mechanical Engineering George W Woodruff School of Mechanical Engineering, Room 200, 801 Ferst Drive NW, Atlanta, GA 30332-0405
+242|University of California Irvine Department of Mathematics Rowland Hall, Room 621, 501 East Peltason Drive, Irvine, CA 92697-3875
+243|University of Wisconsin-Madison Department of Chemistry, 1101 University Avenue, Room 7417, Madison, WI 53706-1396
+244|University of Southern California Gould School of Law, 699 Exposition Boulevard, Los Angeles, CA 90089-0071
+245|University of Illinois at Urbana-Champaign Department of Civil and Environmental Engineering Newmark Civil Engineering Laboratory, Room 2110, 205 North Mathews Avenue, Urbana, IL 61801-2352
+246|University of Maryland College of Computer Mathematical and Natural Sciences Chemistry Building, Room 2240, College Park, MD 20742-2021
+247|University of Minnesota Twin Cities College of Biological Sciences Snyder Hall, Room 140, 1475 Gortner Avenue, Saint Paul, MN 55108-1095
+248|University of Washington Department of Psychology Guthrie Hall, Room 222, Seattle, WA 98195-1525
+249|Ohio State University Department of Physics Physics Research Building, Room 1120, 191 West Woodruff Avenue, Columbus, OH 43210-1117
+250|University of California Santa Barbara Department of Mechanical Engineering Harold Frank Hall, Room 3164, Santa Barbara, CA 93106-5070
+251|University of Notre Dame Department of Economics 328 Malloy Hall, Notre Dame, IN 46556-4643
+252|Emory University School of Medicine Whitehead Biomedical Research Building, Room 1003, 615 Michael Street, Atlanta, GA 30322-3030
+253|University of Pittsburgh School of Law Barco Law Building, Room 304, 3900 Forbes Avenue, Pittsburgh, PA 15260-6101
+254|University of California Davis Department of Physics Physics Building, Room 2123, One Shields Avenue, Davis, CA 95616-5270
+255|University of Arizona Department of Astronomy Steward Observatory, Room N204, 933 North Cherry Avenue, Tucson, AZ 85721-0065
+256|University of Colorado Boulder Department of Computer Science Engineering Center, Room ECCR 150, 1111 Engineering Drive, Boulder, CO 80309-4300
+257|Michigan State University College of Engineering Engineering Building, Room 428, 428 South Shaw Lane, East Lansing, MI 48824-1226
+258|University of Florida Department of Psychology Psychology Building, Room 352, Gainesville, FL 32611-2250
+259|University of California Riverside Department of Chemistry Chemical Sciences Building, Room 1400, 900 University Avenue, Riverside, CA 92521-0403
+260|University of Oregon School of Journalism and Communication Allen Hall, Room 321, 1275 University of Oregon, Eugene, OR 97403-1275
+261|University of Kansas Department of Psychology Fraser Hall, Room 426, 1415 Jayhawk Boulevard, Lawrence, KS 66045-7556
+262|University of Texas at Austin College of Education George I Sanchez Building, Room 222, 1912 Speedway, Austin, TX 78712-1292
+263|University of Iowa Department of Physics and Astronomy Van Allen Hall, Room W290, Iowa City, IA 52242-1479
+264|University of Cincinnati College of Engineering and Applied Science Rhodes Hall, Room 320, 2901 Woodside Drive, Cincinnati, OH 45221-0072
+265|University of California San Diego Department of Computer Science and Engineering Computer Science and Engineering Building, Room 4119, 9500 Gilman Drive, La Jolla, CA 92093-0404
+266|University of Alabama College of Arts and Sciences Clark Hall, Room 202, Tuscaloosa, AL 35487-0211
+267|University of Virginia Department of History Nau Hall, Room 341, Charlottesville, VA 22903-2447
+268|University of Wisconsin-Eau Claire Department of Geography and Anthropology Centennial Hall, Room 2212, 1698 Park Avenue, Eau Claire, WI 54701-4004
+269|University of California Santa Cruz Department of Earth and Planetary Sciences Earth and Marine Sciences Building, Room A316, 1156 High Street, Santa Cruz, CA 95064-1077
+270|University of Arkansas Department of Biological Sciences Science Engineering Hall, Room 604, Fayetteville, AR 72701-1201
+271	|	1000 Avenida Ponce de Leon Ste 5, San Juan, PR 00907
+272	|	234 Calle del Parque Apt 3A, San Juan, PR 00912
+273	|	345 Avenida Fernandez Juncos Ste 2B, San Juan, PR 00901
+274	|	456 Boulevard Munoz Rivera Apt 10, San Juan, PR 00918
+275	|	678 Calle Padial Ste 4, San Juan, PR 00926
+276	|	789 Avenida Juan Ponce de Leon Ste 6A, San Juan, PR 00915
+277	|	890 Calle Arroyo Apt 7B, San Juan, PR 00919
+278	|	901 Carrera De Diego Ste 2, San Juan, PR 00908
+279	|	1234 Calle Cerra Apt 8, San Juan, PR 00920
+280	|	5678 Carrera Ashford Ste 3A, San Juan, PR 00907
+281	|	Casa 10 Calle Las Flores, Aguadilla, PR 00603
+282	|	Casa 3 Avenida Isla Verde, Carolina, PR 00979
+283	|	Casa 21 Boulevard Los Pinos, Bayamon, PR 00959
+284	|	Casa 7 Carrera Palma Real, Humacao, PR 00791
+285	|	Casa 15 Calle Los Cocos, Guaynabo, PR 00969
+286	|	Casa 8 Carrera Magnolia, Ponce, PR 00731
+287	|	Casa 11 Calle Los Flamboyanes, Caguas, PR 00725
+288	|	Casa 4 Avenida San Patricio, San Juan, PR 00968
+289	|	Casa 13 Calle 44, Fajardo, PR 00738
+290	|	Casa 6 Calle Las Brisas, Manati, PR 00674
+291	|	C 23 Apt 4B SE, San Juan, PR 00912
+292	|	A 12 Bldg 3A, Ponce, PR 00730
+293	|	C 45 Apt 2C NE, Carolina, PR 00987
+294	|	C 56 Ste 1B, Bayamón, PR 00961
+295	|	B 78 BLK 5D, Guaynabo, PR 00966
+296	|	C 67 Apt 6C, Fajardo, PR 00738
+297	|	B 89 Bldg 7A SE, Aguadilla, PR 00603
+298	|	C 34 Apt 8B, Mayagüez, PR 00682
+299	|	A 90 Apt 9C, Humacao, PR 00791
+300	|	C 12 Apt 10D, Arecibo, PR 00612
+301	|	20 C Del Parque BLK 5, San Juan, PR 00927
+302	|	25 C De la Luna BLK 2, Bayamón, PR 00959
+303	|	8 C Las Brisas BLK 1, Carolina, PR 00987
+304	|	30 C De la Fuente BLK 4, Humacao, PR 00791
+305	|	18 C De la Rosa BLK 3, Guaynabo, PR 00966
+306	|	22 C De la Montaña BLK 6, Mayagüez, PR 00682
+307	|	11 C De la Playa BLK 7, Dorado, PR 00646
+308	|	6 C De la Costa BLK 10, Arecibo, PR 00612
+309	|	20 C 10 NE B 6, San Juan, PR 00925
+310	|	15 C 22 SW B 8, Ponce, PR 00730
+311	|	25 C 8 NW B 2, Bayamón, PR 00959
+312	|	8 C 16 SE B 1, Carolina, PR 00987
+313	|	30 C 26 NE B 4, Humacao, PR 00791
+314	|	18 C 12 NW B 3, Guaynabo, PR 00966
+315	|	12 C 2 SE B 9, Fajardo, PR 00738
+316	|	22 C 18 SW B 6, Mayagüez, PR 00682
+317	|	11 C 6 NE B 7, Dorado, PR 00646
+318	|	6 C 28 SE B 10, Arecibo, PR 00612
