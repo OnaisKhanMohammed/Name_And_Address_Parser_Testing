@@ -16,9 +16,9 @@ def NameandAddressParser(line):
     Percentage_of_parsed=0
 
     Final_Output={}
-    fileHandle = open('USAddressWordTable.txt', 'r')
-    NamefileHandle = open('NamesWordTableOpt.txt', 'r')
-    SplitWordTable = open('SplitWordTable.txt', 'r')
+    fileHandle = open('USAddressWordTable.txt', 'r',encoding="utf8")
+    NamefileHandle = open('NamesWordTableOpt.txt', 'r',encoding="utf8")
+    SplitWordTable = open('SplitWordTable.txt', 'r',encoding="utf8")
     AllAddress_Key_Value_As_MASK_Comp={}
     Observation=0
     Total=0
@@ -257,7 +257,6 @@ def NameandAddressParser(line):
         
         Total+=1
     return Final_Output
-print(NameandAddressParser("Dr. John talburt, IQCP,1701 westpark drive, apt 110, ark 72204"))
 # print("Address Matching Report")
 # print("Total=",Count)
 # print("Matched Addresses=",Observation)

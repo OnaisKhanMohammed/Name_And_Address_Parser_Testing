@@ -16,7 +16,7 @@ import collections
 
 def Address_Parser(line):
     Result={}
-    fileHandle = open('USAddressWordTable.txt', 'r')
+    fileHandle = open('USAddressWordTable.txt', 'r',encoding="utf8")
     # Strips the newline character
     Observation=0
     Total=0

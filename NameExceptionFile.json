@@ -1,1 +1,55 @@
-{}
+{
+    "WWW": [
+        {
+            "W": "ONAIS"
+        },
+        {
+            "W": "KHAN"
+        },
+        {
+            "W": "MOHAMMED"
+        }
+    ],
+    "PWWW": [
+        {
+            "P": "MR"
+        },
+        {
+            "W": "ONAIS"
+        },
+        {
+            "W": "KHAN"
+        },
+        {
+            "W": "MOHAMMED"
+        }
+    ],
+    "PWW": [
+        {
+            "P": "MR"
+        },
+        {
+            "W": "ONAIS"
+        },
+        {
+            "W": "KHAN"
+        }
+    ],
+    "PWWJ,Q": [
+        {
+            "P": "DR"
+        },
+        {
+            "W": "JOHN"
+        },
+        {
+            "W": "TALBURT"
+        },
+        {
+            "J": "JR"
+        },
+        {
+            "Q": "IQCP"
+        }
+    ]
+}

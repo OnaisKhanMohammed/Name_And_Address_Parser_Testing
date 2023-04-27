@@ -37,13 +37,10 @@ class NameAddressParser:
     
     #Process for Address Parser, wherein after the click of the button "Choose Two Files" this method is triggered
      
-    
+
     
     #Process for Address Parser, wherein after the click of the button "Choose Two Files" this method is triggered
      
-
-
-    
     
     # This method is for creating a TAB in the GUI for Name Parser
     def NameParser():
@@ -154,45 +151,19 @@ class NameAddressParser:
         def Process_Address_Parser():
             msg.showinfo("Choose File","Select Input File")
 
-            df = fd.askopenfilenames( filetypes=[("TXT", ".txt")]) #this file is used to give UI for the user to open a file
+            df = fd.askopenfilenames( filetypes=[("TXT", ".txt"),("JSON",".json")]) 
             if df:
                 msg.showinfo("Choose File","Select Truth File")
                 
                 truth = fd.askopenfilenames( filetypes=[("TXT", ".txt")]) #this file is used to give UI for the user to open a file
                 if truth:
-                    Output=AdM.Address_Parser(df[0],truth[0])
-                    jsonData = json.dumps(Output[0], indent=2)
-                    with open('OutputAddressParsedFile.txt', 'w') as out_file:
-                        json.dump(jsonData, out_file, sort_keys = True, indent = 4,ensure_ascii = False)
-                        msg.showinfo("Success!","Parsing is Successful, Output File Name 'OutputAddressParsedFile' is Generated!")
-                    # text = tk.Text(tab2, height=24)
-                    # text.grid(row=140, column=10, sticky=tk.EW)
+                    Output=AdM.Address_Parser(df[0],TruthSet=truth[0])
+                    if Output[0]:
+                        msg.showinfo("Success",Output[1])
+                    else:
+                        msg.showerror("Error!", Output[1])                
                     
-                    # # create a scrollbar widget and set its command to the text widget
-                    # scrollbar = ttk.Scrollbar(tab2, orient='vertical', command=text.yview)
-                    # scrollbar.grid(row=140, column=11, sticky=tk.NS)
-                    
-                    # #  communicate back to the scrollbar
-                    # text['yscrollcommand'] = scrollbar.set
-
-                    # # text.insert('end', jsonData)
-                    
-                    
-                    # text1 = tk.Text(tab2, height=5)
-                    # text1.grid(row=10, column=30, sticky=tk.NW)
-                    
-                    # create a scrollbar widget and set its command to the text widget
-                    
-                    #  communicate back to the scrollbar
-                    String="% of Parsed Name and Address"
-                    String+="= "+str(round(Output[1],2))
-                    String+="\n% of Correctly parsed Addresses= "+str(round(Output[2],2))
-                    text.delete("1.0",'end-1c')
-                    text_result.delete("1.0",'end-1c')
-                    
-                    text.insert('end', jsonData)
-                    text_result.insert('end', String)
-                    
+                  
                     # except:
                     #     msg.showinfo("Alert!","File Reading Error !")
                 else: msg.showerror("Alert!","Truth file is required!")
@@ -200,11 +171,29 @@ class NameAddressParser:
             return
         
         
+        def Process_Address_Parser_input():
+            msg.showinfo("Choose File","Select Input File")
+
+            df = fd.askopenfilenames( filetypes=[("TXT", ".txt"),("JSON",".json")]) 
+            if df:
+                Output=AdM.Address_Parser(df[0])
+                if Output[0]:
+                    msg.showinfo("Success",Output[1])
+                else:
+                    msg.showerror("Error!", Output[1])
+            else: msg.showerror("Alert","Please select input file.")
+            return
         
-        Nbutton = ttk.Button(tab2, text ="Choose Two Files",width=30, command=Process_Address_Parser).grid(column = 5, 
+        
+        Nbutton = ttk.Button(tab2, text ="Choose Two Files (input and test)",width=30, command=Process_Address_Parser).grid(column = 5, 
                              row = 50,
                              padx = 10,
                              pady = 10)
+        NbuttonSingle = ttk.Button(tab2, text ="Choose Single File (input)",width=30, command=Process_Address_Parser_input).grid(column = 5, 
+                             row = 60,
+                             padx = 10,
+                             pady = 10)
+        
         Or_Label=ttk.Label(tab2,text="Enter Address").grid(column = 4, 
                                  row = 10,
                                  padx = 10,
@@ -214,25 +203,25 @@ class NameAddressParser:
         single_input = ttk.Entry(tab2,width=100,textvariable=nad).grid(column = 5, 
                                  row = 10,
                                  padx = 10,
-                                 pady = 10)
+                                 pady = 10) 
         ttk.Label(tab2, 
           text ="OR").grid(column = 5, 
                                row = 15,
                                padx = 0,
                                pady = 0) 
-        text = tk.Text(tab2, height=24)
-        text.grid(row=55, column=5, sticky=tk.EW)
+        # text = tk.Text(tab2, height=24)
+        # text.grid(row=55, column=5, sticky=tk.EW)
         
-        # create a scrollbar widget and set its command to the text widget
-        scrollbar = tk.Scrollbar(tab2, orient='vertical', command=text.yview)
-        scrollbar.grid(column=6, row=55, rowspan=2,  sticky="ns")
+        # # create a scrollbar widget and set its command to the text widget
+        # scrollbar = tk.Scrollbar(tab2, orient='vertical', command=text.yview)
+        # scrollbar.grid(column=6, row=55, rowspan=2,  sticky="ns")
         
-        #  communicate back to the scrollbar
-        text['yscrollcommand'] = scrollbar.set
+        # #  communicate back to the scrollbar
+        # text['yscrollcommand'] = scrollbar.set
         
         
-        text_result = tk.Text(tab2, height=5,width=30)
-        text_result.grid(row=55, column=7,padx=20,pady=20)
+        # text_result = tk.Text(tab2, height=5,width=30)
+        # text_result.grid(row=55, column=7,padx=20,pady=20)
         
         def Single_Address(): 
             Convert=AD_API.Address_Parser(nad.get())
