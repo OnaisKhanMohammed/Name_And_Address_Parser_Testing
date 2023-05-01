@@ -1,0 +1,52 @@
+{
+    "ZWTWWWWW,WNDWF,W,TN": [
+        {
+            "Z": "UNIVERSITY"
+        },
+        {
+            "W": "OF"
+        },
+        {
+            "T": "MISSOURI"
+        },
+        {
+            "W": "DEPARTMENT"
+        },
+        {
+            "W": "OF"
+        },
+        {
+            "W": "CHEMISTRY"
+        },
+        {
+            "W": "CHEMISTRY"
+        },
+        {
+            "W": "BUILDING"
+        },
+        {
+            "W": "ROOM"
+        },
+        {
+            "N": "601"
+        },
+        {
+            "D": "SOUTH"
+        },
+        {
+            "W": "COLLEGE"
+        },
+        {
+            "F": "AVENUE"
+        },
+        {
+            "W": "COLUMBIA"
+        },
+        {
+            "T": "MO"
+        },
+        {
+            "N": "65211-7600"
+        }
+    ]
+}

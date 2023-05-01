@@ -226,44 +226,53 @@ class NameAddressParser:
         import textwrap
 
 
-        def wrap(string, lenght=40):
+        def wrap(string, lenght=60):
             return '\n'.join(textwrap.wrap(string, lenght))
         
         
+        tree = ttk.Treeview(tab2, column=["Address Component","Address Token","Exception","File"] ,selectmode="extended",show='headings',height=10)
+        for item in tree.get_children():
+            tree.delete(item)
+        tree.column("# 1", width=50, stretch='YES')
+        tree.heading("# 1", text="Address Component")
+        
+        tree.column("# 2", width=200, stretch='YES')
+        tree.heading("# 2", text="Address Token")
+        
+
+        
+        tree.column("# 3", width=50, stretch='YES')
+        tree.heading("# 3", text="Exception")
+        
+        tree.column("# 4", width=200, stretch='YES')
+        tree.heading("# 4", text="File Name")
+        
         
         def Single_Address():
+            
+            s = ttk.Style()
+            s.configure('Treeview', rowheight=35, background="black", 
+                fieldbackground="black", foreground="white")
+            
+            
             initial = simpledialog.askstring("Optional", "Your Initials")
            
             Convert=AD_API.Address_Parser(nad.get(),initial)
             
             Result=Convert[0]
             
-            try:
-                tree = ttk.Treeview(tab2, column=["Address Component","Address Token"] ,selectmode="extended",show='headings')
+            try: 
                 
-                tree.column("# 1", width=150, stretch='YES')
-                tree.heading("# 1", text="Address Component")
-                
-                tree.column("# 2", width=400, stretch='YES')
-                tree.heading("# 2", text="Address Token")
-                
-           
-                    
+                for item in tree.get_children():
+                    tree.delete(item)
                 for k, v in Result["Output"].items():  
                     tree.insert('', 'end', values=(wrap(k),wrap(v)))
-                tree.insert('','end',values=('',''))
-                tree.insert('','end',values=('Mask'))
-                tree.insert('','end',values=(Convert[1]))
+                tree.insert('','end',values=(wrap('Mask'),wrap(Convert[1]),"",""))
             except:
-                tree = ttk.Treeview(tab2, column=["Address Component","Address Token"] ,selectmode="extended",show='headings')
-                
-                tree.column("# 1", width=150, stretch='YES')
-                tree.heading("# 1", text="Exception")
-                
-                tree.column("# 2", width=400, stretch='YES')
-                tree.heading("# 2", text="File Name")
-                
-                tree.insert('','end',values=((Convert[1],Convert[2])))
+               
+                for item in tree.get_children():
+                    tree.delete(item)
+                tree.insert('','end',values=("","",Convert[1],Convert[2]))
 
 
             
