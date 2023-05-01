@@ -12,10 +12,27 @@ import pandas as pd
 import json 
 import collections 
 #Parsing 1st program
+import re
 
 
-def Address_Parser(line):
+from datetime import datetime,timedelta
+today=datetime.today()
+
+import os.path
+
+
+
+file_dir = os.path.dirname(os.path.realpath('__file__'))
+
+
+from pathlib import Path
+
+root_folder = Path(__file__).parents[1]
+
+
+def Address_Parser(line,initials):
     Result={}
+    Exception_file_name=""
     fileHandle = open('USAddressWordTable.txt', 'r',encoding="utf8")
     # Strips the newline character
     Observation=0
@@ -82,11 +99,7 @@ def Address_Parser(line):
             FoundDict[tk]=tv
             Found=True
             break
-    FoundExcept=False
-    with open('ExceptionFile.json', 'r+', encoding='utf-8') as g:
-        Stat = json.load(g)
-        if Mask_1 in Stat.keys():
-            FoundExcept=True
+    
     if Found:
         Observation+=1
         Mappings={}
@@ -104,15 +117,18 @@ def Address_Parser(line):
             Result["Output"]=Mappings
             
         
-    elif not FoundExcept:  
-        with open('ExceptionFile.json', 'r+', encoding='utf-8') as g:
-            Stat = json.load(g)
-            Stat[Mask_1]=FirstPhaseList
+    else:  
+        Exception_file_name=initials+'_ExceptionFile_'+str(today)+".txt"
+        Exception_file_name=re.sub(r'[^\w_. -]', '_', Exception_file_name)
+        path= 'Exceptions/SingleException/'+Exception_file_name
+        with open(path,'w', encoding='utf-8') as g:
             g.seek(0)
+            Stat={}
+            Stat[Mask_1]=FirstPhaseList
             json.dump(Stat,g,indent=4)
             g.truncate
     Total+=1
-    return Result
+    return (Result, Mask_1,Exception_file_name)
 # print("Final Correct Address Parsing Percentage",Count_of_Correct/Total_Count*100)
 # print("Address Matching Report")
 # print("Total=",Count)

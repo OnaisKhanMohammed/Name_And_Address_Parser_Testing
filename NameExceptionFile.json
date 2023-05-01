@@ -51,5 +51,43 @@
         {
             "Q": "IQCP"
         }
+    ],
+    "WQQWWWQ,WW,W,WW": [
+        {
+            "W": "PRINCETON"
+        },
+        {
+            "Q": "UNIVERSITY"
+        },
+        {
+            "Q": "DEPARTMENT"
+        },
+        {
+            "W": "OF"
+        },
+        {
+            "W": "CHEMISTRY"
+        },
+        {
+            "W": "FRICK"
+        },
+        {
+            "Q": "LABORATORY"
+        },
+        {
+            "W": "ROOM"
+        },
+        {
+            "W": "B322"
+        },
+        {
+            "W": "PRINCETON"
+        },
+        {
+            "W": "NJ"
+        },
+        {
+            "W": "08544-1009"
+        }
     ]
 }

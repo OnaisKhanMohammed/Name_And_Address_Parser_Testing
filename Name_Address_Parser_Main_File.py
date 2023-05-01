@@ -1,5 +1,5 @@
 import tkinter as tk					
-from tkinter import ttk
+from tkinter import ttk,simpledialog
 from datetime import date
 import tkinter.filedialog as fd
 import tkinter.messagebox as msg
@@ -186,11 +186,11 @@ class NameAddressParser:
         
         
         Nbutton = ttk.Button(tab2, text ="Choose Two Files (input and test)",width=30, command=Process_Address_Parser).grid(column = 5, 
-                             row = 50,
+                             row = 60,
                              padx = 10,
                              pady = 10)
         NbuttonSingle = ttk.Button(tab2, text ="Choose Single File (input)",width=30, command=Process_Address_Parser_input).grid(column = 5, 
-                             row = 60,
+                             row = 50,
                              padx = 10,
                              pady = 10)
         
@@ -223,9 +223,55 @@ class NameAddressParser:
         # text_result = tk.Text(tab2, height=5,width=30)
         # text_result.grid(row=55, column=7,padx=20,pady=20)
         
-        def Single_Address(): 
-            Convert=AD_API.Address_Parser(nad.get())
-            msg.showinfo("Output",Convert)
+        import textwrap
+
+
+        def wrap(string, lenght=40):
+            return '\n'.join(textwrap.wrap(string, lenght))
+        
+        
+        
+        def Single_Address():
+            initial = simpledialog.askstring("Optional", "Your Initials")
+           
+            Convert=AD_API.Address_Parser(nad.get(),initial)
+            
+            Result=Convert[0]
+            
+            try:
+                tree = ttk.Treeview(tab2, column=["Address Component","Address Token"] ,selectmode="extended",show='headings')
+                
+                tree.column("# 1", width=150, stretch='YES')
+                tree.heading("# 1", text="Address Component")
+                
+                tree.column("# 2", width=400, stretch='YES')
+                tree.heading("# 2", text="Address Token")
+                
+           
+                    
+                for k, v in Result["Output"].items():  
+                    tree.insert('', 'end', values=(wrap(k),wrap(v)))
+                tree.insert('','end',values=('',''))
+                tree.insert('','end',values=('Mask'))
+                tree.insert('','end',values=(Convert[1]))
+            except:
+                tree = ttk.Treeview(tab2, column=["Address Component","Address Token"] ,selectmode="extended",show='headings')
+                
+                tree.column("# 1", width=150, stretch='YES')
+                tree.heading("# 1", text="Exception")
+                
+                tree.column("# 2", width=400, stretch='YES')
+                tree.heading("# 2", text="File Name")
+                
+                tree.insert('','end',values=((Convert[1],Convert[2])))
+
+
+            
+            
+            
+            tree.grid(row=55, column=5, sticky=tk.EW)
+            
+            
         
         ttk.Button(tab2, text ="Submit",width=30, command=Single_Address).grid(column = 7, 
                                  row = 10)    
