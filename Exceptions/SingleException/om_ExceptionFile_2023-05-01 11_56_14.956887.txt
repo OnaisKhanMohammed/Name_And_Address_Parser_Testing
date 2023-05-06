@@ -1,0 +1,61 @@
+{
+    "ZWTWWWWWWWW,N,NWF,WW,TN": [
+        {
+            "Z": "UNIVERSITY"
+        },
+        {
+            "W": "OF"
+        },
+        {
+            "T": "MICHIGAN"
+        },
+        {
+            "W": "DEPARTMENT"
+        },
+        {
+            "W": "OF"
+        },
+        {
+            "W": "COMPUTER"
+        },
+        {
+            "W": "SCIENCE"
+        },
+        {
+            "W": "AND"
+        },
+        {
+            "W": "ENGINEERING"
+        },
+        {
+            "W": "BEYSTER"
+        },
+        {
+            "W": "BUILDING"
+        },
+        {
+            "N": "3750"
+        },
+        {
+            "N": "2260"
+        },
+        {
+            "W": "HAYWARD"
+        },
+        {
+            "F": "STREET"
+        },
+        {
+            "W": "ANN"
+        },
+        {
+            "W": "ARBOR"
+        },
+        {
+            "T": "MI"
+        },
+        {
+            "N": "48109-2121"
+        }
+    ]
+}
